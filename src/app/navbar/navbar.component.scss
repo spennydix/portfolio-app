@@ -1,0 +1,33 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+  justify-content: safe;
+
+  .navbar-brand {
+    justify-self: flex-start;
+
+    #brandLogo {
+      margin: 0 0.5em 0 0;
+    }
+  }
+
+  .search-titles {
+    justify-self: flex-end;
+  }
+
+  .nav {
+    justify-self: flex-end;
+
+    a {
+      cursor: pointer;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    * {}
+  }
+}
