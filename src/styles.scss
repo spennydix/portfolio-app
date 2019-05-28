@@ -1,6 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'mixins.scss';
+
 .h1,
 h1 {
   font-size: 3rem;
   margin-bottom: 0.5em;
+}
+
+a {
+  &:hover {
+    cursor: pointer !important;
+  }
+}
+
+.copy.row.flex {
+  padding: 6em 0;
+
+  .copy-body {
+    margin: 0 auto;
+  }
 }

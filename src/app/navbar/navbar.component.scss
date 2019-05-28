@@ -20,8 +20,13 @@
   .nav {
     justify-self: flex-end;
 
-    a {
+    a.nav-link {
       cursor: pointer;
+
+      &.active {
+        color: black;
+        border-bottom: 1px solid;
+      }
 
       &:hover {
         cursor: pointer;

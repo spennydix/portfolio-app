@@ -1,0 +1,18 @@
+section#contact{
+ul {
+  columns: 2;
+  padding-left: 1.2em;
+
+  li {
+    width: max-content;
+  }
+}
+.app-locations{
+  margin:0 auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  justify-items:safe;
+  align-items:center;
+}
+}

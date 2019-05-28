@@ -1,0 +1,50 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin word-break($word-break) {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for WebKit */
+  word-break: break-word;
+}
+@mixin hyphens($hyphens) {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+//superellipses
+@function trim($number) {
+  @if type-of($number)== 'number' and not unitless($number) {
+    @return $number / ($number * 0+1);
+  }
+  @return $number;
+}
+@function replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+  @return if($index, str-slice($string, 1, $index - 1) + $replace + replace(str-slice($string, $index + str-length($search)), $search, $replace), $string);
+}
+@mixin super-rectangle ($width, $height, $color, $arc) {
+  $width: trim($width);
+  $height: trim($height);
+  $color: replace(''+$color+'', '#', '%23');
+  $halfWidth: $width / 2;
+  $halfHeight: $height / 2;
+  $arc: $arc*10;
+  background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg version='1.1' id='rectangle' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='"+$width+"' height='"+$height+"' viewBox='0 0 "+$width+" "+$height+"' enable-background='new 0 0 "+$width+" "+$height+"' xml:space='preserve'%3E%3Cpath fill='"+$color+"' stroke='none' d=' M 0,"+$halfHeight+" C 0,"+$arc+" "+$arc+",0 "+$halfWidth+",0 S "+$width+","+$arc+" "+$width+","+$halfHeight+" "+($width - $arc)+","+($height)+" "+$halfWidth+","+$height+" 0,"+($height - $arc)+" 0,"+$halfHeight+"'%3E%3C/path%3E%3C/svg%3E");
+  background-size: #{$width + 'px'} #{$height + 'px'};
+  background-repeat: no-repeat;
+}
+
+.squircle {
+  $w: 100px;
+  $h: 100px;
+  $c: #424242;
+  $a: 0;
+  width: $w;
+  height: $h;
+  @include super-rectangle($w, $h, $c, $a);
+  display:inline-block;
+}
