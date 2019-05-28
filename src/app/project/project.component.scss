@@ -1,0 +1,36 @@
+.project-container {
+  background-color: #424242;
+  border-radius: 1vw;
+  padding: 2vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 300px;
+  max-height: 400px;
+  height: 33vw;
+&:hover{
+  cursor:pointer;
+  .p-logo {
+    display:block !important;
+  }
+}
+  .p-logo {
+    background-size: cover;
+    height: 3.5rem;
+    width: 3.5rem;
+    display:none;
+    background:red;
+  }
+
+  .p-title {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+  }
+
+  .p-description {display:none;}
+
+  * {
+    color: #fff;
+  }
+}
