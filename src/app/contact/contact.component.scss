@@ -1,18 +1,28 @@
-section#contact{
-ul {
-  columns: 2;
-  padding-left: 1.2em;
+section#contact {
+  ul {
+    columns: 2;
+    padding-left: 1.2em;
 
-  li {
-    width: max-content;
+    li {
+      width: max-content;
+    }
+  }
+
+  .app-locations {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: safe;
+    align-items: center;
   }
 }
-.app-locations{
-  margin:0 auto;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:space-around;
-  justify-items:safe;
-  align-items:center;
-}
+@media screen and (orientation:portrait) {
+  ul {
+    columns: 1 !important;
+
+    li {
+      width: initial !important;
+    }
+  }
 }
