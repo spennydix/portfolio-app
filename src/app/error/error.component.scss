@@ -5,5 +5,13 @@
   margin: 0 auto;
   text-align: center;
   width: 100%;
+  font-weight: 900;
   color: #f8f9fa;
+  text-shadow: 1px 1px 1px;
+  background-color: #f9f9f9 !important;
+  background: url("../../assets/whiteboard.svg") #fff center no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 68vw;
 }
