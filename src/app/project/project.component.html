@@ -1,5 +1,9 @@
-<div class="project-container">
-  <div class="p-logo" background-image="../../../assets/logo.svg"></div>
-  <div class="p-title">TEST</div>
-  <div class="p-description d-none d-md-block">Lorem ipsum dolor sit amet, consecutur adipisicing elit, sed do eiusmod tempor</div>
+<div class="row flex">
+  <div class="col-6 col-md-3 p-3" *ngFor="let user of users.data">
+    <div class="project-container" (click)="seeProject()" >
+      <div class="p-logo" [ngStyle]="{'background-image': 'url(' + user.logo + ')'}"></div>
+      <div class="p-title">{{ user.name }}</div>
+      <div class="p-description d-none d-md-block"> {{ user.description }}</div>
+    </div>
+  </div>
 </div>
