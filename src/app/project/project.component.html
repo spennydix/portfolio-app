@@ -1,9 +1,14 @@
-<div class="row flex">
-  <div class="col-6 col-md-3 p-3" *ngFor="let user of users.data">
-    <div class="project-container" (click)="seeProject()" >
+<div class="row flex p-5">
+  <div class="col-6 col-md-2 p-2" *ngFor="let user of users.data">
+    <div class="project-container" (click)="seeProject()">
+      <div class="p-header" [ngStyle]="{'background-image': 'url(' + user.header + ')'}"></div>
       <div class="p-logo" [ngStyle]="{'background-image': 'url(' + user.logo + ')'}"></div>
-      <div class="p-title">{{ user.name }}</div>
-      <div class="p-description d-none d-md-block"> {{ user.description }}</div>
+      <div class="p-id">0{{user.id}}</div>
+      <div class="text-wrapper">
+        <h3 class="p-title">{{user.name}}</h3>
+        <p class="p-type"> {{user.type}}</p>
+      </div>
+
     </div>
   </div>
 </div>
