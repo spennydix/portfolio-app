@@ -46,5 +46,33 @@
   width: $w;
   height: $h;
   @include super-rectangle($w, $h, $c, $a);
-  display:inline-block;
+  display: inline-flex;
+
+  &.facebook {
+    $c: #1877f2;
+  }
+
+  &.instagram {
+    $c: #c32aa3;
+  }
+
+  &.twitter {
+    $c: #1da1f2;
+  }
+
+  &.linkedin {
+    $c: #007bb5;
+  }
+
+  &.dribbble {
+    $c: #ea4c89;
+  }
+
+  &.email {
+    $c: #fbbc05;
+  }
+}
+
+.squircle.facebook {
+  $c: #1877f2;
 }
