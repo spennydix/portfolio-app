@@ -7,14 +7,14 @@ import { DataService } from '../data.service';
 })
 export class ProjectComponent implements OnInit {
 
-  users : Object;
+  projects : Object;
 
   constructor(private data: DataService) { }
 
   ngOnInit() {
-    this.data.getUsers().subscribe(data => {
-        this.users = data
-        console.log(this.users);
+    this.data.getProjects().subscribe(data => {
+        this.projects = data
+        console.log(this.projects);
       }
     );
   }

@@ -12,9 +12,7 @@ export class DataService {
     return console.log("clicked");
   }
 
-  getUsers() {
-    // return this.http.get('http://127.0.0.1:8080/projects-data.json')
-    return this.http.get('https://api.myjson.com/bins/sg45f')
-
+  getProjects() {
+    return this.http.get('/assets/projects-data.json')
   }
 }
