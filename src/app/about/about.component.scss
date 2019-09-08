@@ -35,17 +35,23 @@ section#about {
 
       span.character-holder {
         letter-spacing: 0.5em;
-        font-size: 1.7em;
+        // janky support for resizing screen
+        font-size: calc(25vw / 13.5);
         writing-mode: vertical-lr;
         text-orientation: upright;
-        user-select:none;
+        user-select: none;
         text-transform: uppercase;
       }
+    }
+    .wordsearch-key {
+      opacity: 0.5;
+      padding: 1rem 0;
+      transform: rotate(180deg);
     }
   }
 }
 
-.career-path.col-11.col-md-6.offset-md-1:before {
+.career-path:before {
   content: "";
   height: 100%;
   width: 2px;

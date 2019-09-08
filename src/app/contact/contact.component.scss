@@ -17,13 +17,17 @@ section#contact {
     align-items: center;
 
     .squircle {
+      margin-bottom:1rem;
       i {
         color: #fff;
         font-size: 3em;
         align-self: center;
         justify-content: center;
         margin: 0 auto;
+        text-decoration:none;
+        &:hover{text-decoration:none;}
       }
+        &:hover{text-decoration:none;}
     }
   }
 }

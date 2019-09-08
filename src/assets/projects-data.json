@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": 111,
+      "id": 1,
       "name": "Prive AV",
       "type": "Marketing Site",
       "length": "xxx",
@@ -14,7 +14,7 @@
       "liveLink": "https://primeaudiovisuals.com"
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Campus Market",
       "type": "Product Design",
       "length": "",
@@ -28,7 +28,7 @@
       "liveLink": "https://thecampus.market"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "ExpertVoice Studios",
       "type": "Marketing Site",
       "length": "",
@@ -42,7 +42,7 @@
       "liveLink": "https://www.expertvoice.com/studios/"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Teva",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
@@ -59,7 +59,7 @@
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Nightforce",
       "type": "Agency Work",
       "length": "5",
@@ -73,13 +73,13 @@
       "scope": "Content Update/Overhaul",
       "quote": "Overall I really like the design of the site, it's really digestible and above all else, just sexy! Really well done.",
       "stakeholder": "Wayne Dayberry, Marketing Specialist",
-      "liveLink": "https://www.experticity.com/learn?moduleId=14844&courseId=9359&campaignId=6254"
+        "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14844%26campaignId%3D5688"
     },
 
     {
-      "id": 5,
+      "id": 6,
       "name": "Topo Designs",
-      "type": "XXX",
+      "type": "Agency Work",
       "length": "3",
       "writer": "Jenna Anderson",
       "description": "XXX",
@@ -96,7 +96,7 @@
 
 
     {
-      "id": 6,
+      "id": 7,
       "name": "Daniel Defense",
       "type": "Agency Work",
       "length": "5",
@@ -113,7 +113,7 @@
       "liveLink": "XXX"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Oakley",
       "type": "Agency Work",
       "goal": "Brand awareness, Product education",
@@ -129,7 +129,7 @@
       "liveLink": "https://www.experticity.com/community/oakley"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Sawyer",
       "type": "Agency Work",
       "length": "17",
@@ -143,10 +143,10 @@
       "budget": "31,540",
       "scope": "3 modules",
       "stakeholder": "",
-      "liveLink": "https://www.experticity.com/learn/preview?moduleId=13848#page/1"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13848%26campaignId%3D5688"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Descente",
       "type": "Agency Work",
       "goal": "Brand awareness, product seeding",
@@ -162,7 +162,7 @@
       "liveLink": ""
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "TOMS",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
@@ -175,10 +175,10 @@
       "budget": "130,736",
       "scope": "5 modules",
       "stakeholder": "Chad Lavachek, Retail Marketing Manage",
-      "liveLink": "https://www.experticity.com/learn/preview?moduleId=13866#page/1"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13866%26campaignId%3D5688"
     },
     {
-      "id": 11,
+      "id": 12,
       "name": "Voke",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
@@ -191,10 +191,10 @@
       "budget": "13,000",
       "scope": "1 module",
       "stakeholder": "XXX",
-      "liveLink": "https://www.experticity.com/learn/preview?moduleId=13500#page/1"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13500%26campaignId%3D5688"
     },
     {
-      "id": 12,
+      "id": 13,
       "name": "Zeal Optics",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
@@ -207,11 +207,11 @@
       "budget": "28,900",
       "scope": "2 modules",
       "stakeholder": "Mike Lewis, Director of Brand Activation & Digital Strategy",
-      "liveLink": "https://www.experticity.com/learn/preview?moduleId=14022#page/1"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14022%26campaignId%3D5688"
 
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "Breville",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
@@ -225,10 +225,10 @@
       "budget": "20,000",
       "scope": "3 modules",
       "stakeholder": "Clifford Torng, Global Go-to-Market Officer",
-      "liveLink": "https://www.experticity.com/learn/preview?moduleId=13796#page/1"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13796%26campaignId%3D5688"
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "Dakine",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
@@ -241,10 +241,10 @@
       "budget": "7,500",
       "scope": "2 modules",
       "stakeholder": "Madeline Eastman, Ecommerce Marketing Manager",
-      "liveLink": "https://www.experticity.com/learn/preview?moduleId=13616#page/1"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13616%26campaignId%3D5688"
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "Green Pan",
       "type": "Agency Work",
       "length": "6",
@@ -258,7 +258,7 @@
       "scope": "2 modules",
       "stakeholder": "Tabitha Luckett, Sales Director",
       "video": "assets/clients/greenPan/greenPan-recording.mp4",
-      "liveLink": "https://www.experticity.com/learn/preview?moduleId=13275#page/1"
+"liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
     },
     {
       "id": 17,
@@ -275,7 +275,7 @@
       "scope": "45 modules",
       "stakeholder": "Christina Savignano, Education Team Leader",
       "video": "assets/clients/hills/hills-recording.mp4",
-      "liveLink": "https://www.experticity.com/learn?moduleId=14333&courseId=8702&campaignId=4876"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14333%26campaignId%3D5688"
     },
     {
       "id": 18,
@@ -292,7 +292,7 @@
       "responsibilities": "generic",
       "stakeholder": "Nazera Carlson, Retail Marketing Specialist",
       "scope": "2 modules",
-      "liveLink": "https://www.experticity.com/learn?moduleId=14194&courseId=8645&campaignId=4805#page/1"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14194%26campaignId%3D5688"
     },
     {
       "id": 19,
@@ -310,7 +310,7 @@
       "scope": "2 modules",
       "stakeholder": "Evan Miller, Channel Marketing Manager",
       "moduleMetrics": "1,0.75,1,0.5,0,0,1,.25,1,1,0,0",
-      "liveLink": "https://www.experticity.com/learn/preview?moduleId=13704#page/1"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13704%26campaignId%3D5688"
     }
   ]
 }
