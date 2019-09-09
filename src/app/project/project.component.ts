@@ -12,10 +12,11 @@ export class ProjectComponent implements OnInit {
   constructor(private data: DataService) { }
 
   ngOnInit() {
-    this.data.getProjects().subscribe(data => {
-        this.projects = data
-        console.log(this.projects);
-      }
+    this.data.getProjects()
+    .subscribe((projectList => {
+        this.projects = projectList
+        console.log(projectList);
+      })
     );
   }
 
