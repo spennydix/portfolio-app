@@ -1,6 +1,5 @@
 {
-  "data": [
-    {
+  "data": [{
       "id": 1,
       "name": "Prive AV",
       "type": "Marketing Site",
@@ -73,7 +72,7 @@
       "scope": "Content Update/Overhaul",
       "quote": "Overall I really like the design of the site, it's really digestible and above all else, just sexy! Really well done.",
       "stakeholder": "Wayne Dayberry, Marketing Specialist",
-        "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14844%26campaignId%3D5688"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14844%26campaignId%3D5688"
     },
 
     {
@@ -91,7 +90,7 @@
       "scope": "New Content",
       "quote": "XXX",
       "stakeholder": "XXX",
-      "liveLink": "XXX"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15687%26campaignId%3D5688"
     },
 
 
@@ -110,8 +109,9 @@
       "scope": "New Content",
       "quote": "XXX",
       "stakeholder": "XXX",
-      "liveLink": "XXX"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15459%26campaignId%3D5688"
     },
+
     {
       "id": 8,
       "name": "Oakley",
@@ -170,7 +170,7 @@
       "writer": "Alex Nygaard",
       "description": "The one for one charity model started here. We sat down with many people inside the TOMS brand, from CEO, to founder, to product designers. We got the inside scoop and served it up for our experts to consume.",
       "logo": "assets/clients/toms/toms-logo.png",
-      "header": "",
+      "header": "assets/clients/toms/toms-header.jpg",
       "preview": "assets/clients/toms/toms-preview-image.jpg",
       "budget": "130,736",
       "scope": "5 modules",
@@ -202,7 +202,7 @@
       "writer": "Seth Merrill",
       "description": "In this overhaul we set Zeal Optics up for a more focused, seasonally-relevant approach. For this coming winter season, members will be reminded of what Zeal Optics stands for, as well as learn about the latest goggles and goggle technologies.",
       "logo": "assets/clients/zeal/zeal-logo.png",
-      "header": "",
+      "header": "assets/clients/zeal/zeal-header.jpg",
       "preview": "assets/clients/zeal/zeal-preview-image.jpg",
       "budget": "28,900",
       "scope": "2 modules",
@@ -236,8 +236,8 @@
       "length": "10",
       "description": "With its home base in Hood River, Oregon, Dakine has access to snowy slopes (and the athletes that ride them) nearly year round. This gives its designers a constant stream of product testers to tap for inspiration and feedback. What does that mean for the customer? Products that aren’t created in a lab, but on the slopes.We talked to two Dakine designers to get their insights and stories behind this season’s snow bibs and backpacks.",
       "logo": "assets/clients/dakine/dakine-logo.png",
-      "header": "",
-      "preview": "assets/clients/dakine/dakine-preview-image.jpg",
+      "header": "assets/clients/dakine/dakine-header.jpg",
+      "preview": "assets/clients/dakine/dakine-preview.jpg",
       "budget": "7,500",
       "scope": "2 modules",
       "stakeholder": "Madeline Eastman, Ecommerce Marketing Manager",
@@ -251,14 +251,14 @@
       "writer": "Seth Merrill & Colin Santos",
       "description": "The one that got away... Greenpan was a labor of love, a passion project for all involved. They make technical, non-stick cookware and had very specific concerns they wanted addressed. We created 2 innovative pieces of micro-content: a buzzfeed-esque quiz, and a narrative story. I wont <em>mince</em> words they were awesome and ground-breaking, when compared to the other work we were doing. Our brand partners loved them, but had to cancel their program with Experticity due to budget cuts at their parent company.",
       "logo": "assets/clients/greenPan/greenPan-logo.png",
-      "header": "",
-      "preview": "assets/clients/greenPan/greenPan-preview-image.jpg",
+      "header": "assets/clients/greenPan/greenPan-header.jpg",
+      "preview": "assets/clients/greenPan/greenPan-preview.jpg",
       "budget": "5000",
       "responsibilities": "I was responsible for the site design, from brainstorm to build, through wireframing and interaction development. This update in particular featured 2 bespoke quizzes; the former, a game of creating a <em>green</em> meal, the latter (and the one linked to that preview button) is an experience designed to rate a users aptitude for GreenPan care and use. Our brand partners told us that was a big problem they were having, so we designed and delivered an experience that gave feedback for answers both correct and incorrect. It also gave them one of 5 unique ratings, for gamification. The design of this site fulfilled all the external goals of our parters, but also met many internal goals for content development. With this we reset the expectation of what an edu-game could be, established new best practices of reinforcement and gamification.",
       "scope": "2 modules",
       "stakeholder": "Tabitha Luckett, Sales Director",
       "video": "assets/clients/greenPan/greenPan-recording.mp4",
-"liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
     },
     {
       "id": 17,
@@ -268,11 +268,11 @@
       "length": "65",
       "writer": "Alex Nygaard",
       "description": "Hill's started as a three minute, one-product module and grew into one of ExpertVoice's most valued brand partnerships. They LOVE the content we created for them. We made standard content, micro content, video content, live video content, published surveys, and redesigned the E-Commerce experience for their unique content incentives.",
-      "logo": "XXX",
-      "header": "XXX",
+      "logo": "assets/clients/hills/hills-logo.png",
+      "header": "assets/clients/hills/hills-header.jpg",
       "preview": "assets/clients/hills/hills-preview-image.jpg",
       "budget": "609,148",
-      "scope": "45 modules",
+      "scope": "35 modules",
       "stakeholder": "Christina Savignano, Education Team Leader",
       "video": "assets/clients/hills/hills-recording.mp4",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14333%26campaignId%3D5688"
@@ -286,13 +286,13 @@
       "writer": "Seth Merrill, Jenn Olsen",
       "description": "I inherited this project after 2 sites had already been built, we had missed the mark. I was in charge of rebuilding both sites and fixing the client relationship. What I created was more in line with what the client wanted originally and the only edits we had to make were adding 8413651864 icons. A big brand for ExpertVoice, not much contract value, because the bulk of our revenue was made in order commission.",
       "logo": "assets/clients/hydroflask/hydroflask-logo.png",
-      "header": "",
-      "preview": "assets/clients/hydroflask/hydroflask-preview-image.jpg",
+      "header": "assets/clients/hydroflask/hydroflask-header.jpg",
+      "preview": "assets/clients/hydroflask/hydroflask-preview.jpg",
       "budget": "4,500",
       "responsibilities": "generic",
       "stakeholder": "Nazera Carlson, Retail Marketing Specialist",
       "scope": "2 modules",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14194%26campaignId%3D5688"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15604%26campaignId%3D5688"
     },
     {
       "id": 19,
