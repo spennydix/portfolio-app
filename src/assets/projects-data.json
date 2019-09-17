@@ -34,7 +34,7 @@
       "description": "This is a joint venture between a few friends and I. It is basically a replacement for craigslist geared specifically towards university students. Users of our site avoid the spam and the privacy concerns, not to mention the archaic UX, that Craigslist is widely known for.",
       "responsibilities": "I own all user experience aspects of this site. It started as wireframes, moved to high fidelity mocks, where we tested, the I built and styled all the components in angular 6. My cofounders handled the data architecture and the integrations with other sites, as well as security – but the design was all me.",
       "logo": "assets/clients/expertvoice/ev-logo.png",
-      "header": "assets/clients/expertvoice/ev-header.jpg",
+      "header": "assets/clients/expertvoice/ev-tile.jpg",
       "preview": "assets/clients/expertvoice/ev-preview.jpg",
       "budget": "",
       "scope": "",
@@ -49,7 +49,7 @@
       "writer": "Jenna Anderson",
       "description": "Teva was celebrating the 100th anniversary of the Grand Canyon being a national park, they wanted to educate all their influencers about the significance of the canyon and showcase their new line of products.",
       "logo": "/assets/clients/teva/teva-logo.png",
-      "header": "/assets/clients/teva/teva-header.jpg",
+      "header": "/assets/clients/teva/teva-tile.jpg",
       "preview": "/assets/clients/teva/teva-preview.jpg",
       "budget": "",
       "scope": "",
@@ -159,7 +159,7 @@
       "budget": "",
       "scope": "",
       "stakeholder": "Patrick Purcell, Marketing Manager – USA",
-      "liveLink": ""
+    "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14540%26campaignId%3D5688"
     },
     {
       "id": 11,
@@ -191,7 +191,7 @@
       "budget": "13,000",
       "scope": "1 module",
       "stakeholder": "XXX",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13500%26campaignId%3D5688"
+      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15536%26campaignId%3D5688"
     },
     {
       "id": 13,
@@ -286,7 +286,7 @@
       "writer": "Seth Merrill, Jenn Olsen",
       "description": "I inherited this project after 2 sites had already been built, we had missed the mark. I was in charge of rebuilding both sites and fixing the client relationship. What I created was more in line with what the client wanted originally and the only edits we had to make were adding 8413651864 icons. A big brand for ExpertVoice, not much contract value, because the bulk of our revenue was made in order commission.",
       "logo": "assets/clients/hydroflask/hydroflask-logo.png",
-      "header": "assets/clients/hydroflask/hydroflask-header.jpg",
+      "header": "assets/clients/hydroflask/hydroflask-tile.jpg",
       "preview": "assets/clients/hydroflask/hydroflask-preview.jpg",
       "budget": "4,500",
       "responsibilities": "generic",

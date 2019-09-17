@@ -1,79 +1,96 @@
-a {
-  &:hover {
+div#projectStream {
+  a {
     cursor: pointer;
-    text-decoration: none !important;
 
-    * {
+    &:nth-of-type(2){
+      display:none;
+    }
+
+    &:hover {
+      cursor: pointer;
       text-decoration: none !important;
-    }
-  }
 
-  .project-container {
-    background-color: rgba(66, 66, 66, 0.68);
-    border-radius: 3px;
-    padding: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-height: 300px;
-    max-height: 450px;
-    height: 33vw;
-    position: relative;
-
-    .p-logo {
-      // display: block !important;
-    }
-  }
-
-  .p-header {
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    top: 0;
-    // filter: blur(1px);
-    background-position: center;
-    background-size: cover;
-  }
-
-  .p-id {
-    position: absolute;
-    left: 1.5em;
-  }
-
-  .text-wrapper {
-    height: fit-content;
-    width: max-content;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-self: flex-end;
-
-    .p-title {
-      width: 100%;
+      * {
+        text-decoration: none !important;
+        cursor: pointer;
+      }
     }
 
-    .p-description {
-      display: none;
+    .project-container {
+      border-radius: 0.25em;
+      overflow: hidden;
+      padding: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      min-height: 300px;
+      max-height: 450px;
+      height: 33vw;
+      position: relative;
+      opacity: 0.8;
+      transition-duration: 0.25s;
+
+      .p-logo {
+        background-size: cover;
+        height: 3.5rem;
+        width: 3.5rem;
+        display: none;
+        background: red;
+      }
+
+      .p-header {
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        top: 0;
+        // filter: blur(1px);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.6;
+        transition-duration: 0.25s;
+      }
+
+      .p-id {
+        position: absolute;
+        left: 1.5em;
+      }
+
+      .text-wrapper {
+        height: fit-content;
+        width: max-content;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-self: flex-end;
+
+        .p-title {
+          width: 100%;
+        }
+
+        .p-description {
+          display: none;
+        }
+
+        p.p-type {
+          margin-bottom: 0;
+          font-style: italic;
+          opacity: 0.75;
+        }
+      }
+
+      * {
+        color: #fff;
+      }
+
+      &:hover {
+        opacity: 1;
+
+        .p-header {
+          opacity: 0.8;
+        }
+      }
     }
-
-    p.p-type {
-      margin-bottom: 0;
-      font-style: italic;
-      opacity: 0.75;
-    }
-  }
-
-  .p-logo {
-    background-size: cover;
-    height: 3.5rem;
-    width: 3.5rem;
-    display: none;
-    background: red;
-  }
-
-  * {
-    color: #fff;
   }
 }

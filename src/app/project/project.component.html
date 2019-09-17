@@ -1,4 +1,4 @@
-<div class="row flex p-5" *ngIf="projects">
+<div id="projectStream" class="row flex p-5" *ngIf="projects">
   <a class="col-6 col-md-2 p-3" *ngFor="let project of projects.data" target="_blank" href="{{project.liveLink}}">
     <div class="project-container" (click)="seeProject()">
       <div class="p-header" [ngStyle]="{'background-image': 'url(' + project.header + ')'}"></div>

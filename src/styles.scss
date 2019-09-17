@@ -20,3 +20,50 @@ a {
     margin: 0 auto;
   }
 }
+// DARK MODE (messy)
+
+nav.navbar.dark-mode {
+  background-color: #001f27 !important;
+
+  * {
+    color: #839496;
+  }
+
+  .text-info {
+    color: #bf8c00 !important;
+  }
+
+  a.text-info:focus,
+  a.text-info:hover {
+    color: #7e651b !important;
+  }
+
+}
+
+body.dark-mode {
+  background-color: #002b36;
+  color: #839496 !important;
+
+  &::selection {
+    background: #073642 !important;
+  }
+
+  .text-info {
+    color: #bf8c00 !important;
+  }
+
+  .btn.btn-primary {
+    background-color: #8a9c04;
+    border-color: #8a9c04;
+
+    &:hover {
+      background-color: #7c8c03;
+    }
+
+    &.focus,
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(138, 156, 26, 0.3);
+    }
+  }
+
+}
