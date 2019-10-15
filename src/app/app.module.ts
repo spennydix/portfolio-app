@@ -19,6 +19,7 @@ const appRoutes: Routes = [
   { path: 'work', component: WorkComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'project-details', component: ProjectDetailsComponent },
   { path: '', redirectTo: '/work', pathMatch: 'full' },
   { path: '**', component: ErrorComponent }
 ];

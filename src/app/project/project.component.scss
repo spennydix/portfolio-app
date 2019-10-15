@@ -2,10 +2,6 @@ div#projectStream {
   a {
     cursor: pointer;
 
-    &:nth-of-type(2){
-      display:none;
-    }
-
     &:hover {
       cursor: pointer;
       text-decoration: none !important;

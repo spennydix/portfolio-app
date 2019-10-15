@@ -10,20 +10,21 @@
       "preview": "assets/clients/primeAV/primeAV-preview.jpg",
       "budget": "700",
       "scope": "xxx",
+      "url": "primeAV",
       "liveLink": "https://primeaudiovisuals.com"
     },
     {
       "id": 2,
       "name": "Campus Market",
       "type": "Product Design",
-      "length": "",
       "description": "This is a joint venture between a few friends and I. It is basically a replacement for craigslist geared specifically towards university students. Users of our site avoid the spam and the privacy concerns, not to mention the archaic UX, that Craigslist is widely known for.",
       "responsibilities": "I own all user experience aspects of this site. It started as wireframes, moved to high fidelity mocks, where we tested, the I built and styled all the components in angular 6. My cofounders handled the data architecture and the integrations with other sites, as well as security – but the design was all me.",
       "logo": "assets/clients/campusmarket/campusmarket-logo.png",
       "header": "assets/clients/campusmarket/campusmarket-header.png",
       "preview": "assets/clients/campusmarket/campusmarket-preview.jpg",
-      "budget": "",
+      "budget": "00",
       "scope": "Won first place in the Miller Competition Series @ Brigham Young University, Entrepreneurship & Technology mobile app compentition.",
+      "url": "TCM",
       "liveLink": "https://thecampus.market"
     },
     {
@@ -38,6 +39,7 @@
       "preview": "assets/clients/expertvoice/ev-preview.jpg",
       "budget": "",
       "scope": "",
+      "url": "EVstudios",
       "liveLink": "https://www.expertvoice.com/studios/"
     },
     {
@@ -55,6 +57,7 @@
       "scope": "",
       "quote": "",
       "stakeholder": "",
+      "url": "teva",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688"
     },
     {
@@ -72,6 +75,7 @@
       "scope": "Content Update/Overhaul",
       "quote": "Overall I really like the design of the site, it's really digestible and above all else, just sexy! Really well done.",
       "stakeholder": "Wayne Dayberry, Marketing Specialist",
+      "url": "nightforce",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14844%26campaignId%3D5688"
     },
 
@@ -90,6 +94,7 @@
       "scope": "New Content",
       "quote": "XXX",
       "stakeholder": "XXX",
+      "url": "topo",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15687%26campaignId%3D5688"
     },
 
@@ -109,6 +114,7 @@
       "scope": "New Content",
       "quote": "XXX",
       "stakeholder": "XXX",
+      "url": "danieldefense",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15459%26campaignId%3D5688"
     },
 
@@ -126,6 +132,7 @@
       "budget": "258,800",
       "scope": "15 modules",
       "stakeholder": "Mya Maury, Global Product Training and Development Manager",
+      "url": "oakley",
       "liveLink": "https://www.experticity.com/community/oakley"
     },
     {
@@ -143,6 +150,7 @@
       "budget": "31,540",
       "scope": "3 modules",
       "stakeholder": "",
+      "url": "sawyer",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13848%26campaignId%3D5688"
     },
     {
@@ -159,6 +167,7 @@
       "budget": "",
       "scope": "",
       "stakeholder": "Patrick Purcell, Marketing Manager – USA",
+      "url": "descente",
     "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14540%26campaignId%3D5688"
     },
     {
@@ -175,6 +184,7 @@
       "budget": "130,736",
       "scope": "5 modules",
       "stakeholder": "Chad Lavachek, Retail Marketing Manage",
+      "url": "toms",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13866%26campaignId%3D5688"
     },
     {
@@ -191,6 +201,7 @@
       "budget": "13,000",
       "scope": "1 module",
       "stakeholder": "XXX",
+      "url": "voke",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15536%26campaignId%3D5688"
     },
     {
@@ -207,6 +218,7 @@
       "budget": "28,900",
       "scope": "2 modules",
       "stakeholder": "Mike Lewis, Director of Brand Activation & Digital Strategy",
+      "url": "zeal",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14022%26campaignId%3D5688"
 
     },
@@ -225,6 +237,7 @@
       "budget": "20,000",
       "scope": "3 modules",
       "stakeholder": "Clifford Torng, Global Go-to-Market Officer",
+      "url": "breville",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13796%26campaignId%3D5688"
     },
     {
@@ -241,6 +254,7 @@
       "budget": "7,500",
       "scope": "2 modules",
       "stakeholder": "Madeline Eastman, Ecommerce Marketing Manager",
+      "url": "dakine",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13616%26campaignId%3D5688"
     },
     {
@@ -258,6 +272,7 @@
       "scope": "2 modules",
       "stakeholder": "Tabitha Luckett, Sales Director",
       "video": "assets/clients/greenPan/greenPan-recording.mp4",
+      "url": "greenpan",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
     },
     {
@@ -275,6 +290,7 @@
       "scope": "35 modules",
       "stakeholder": "Christina Savignano, Education Team Leader",
       "video": "assets/clients/hills/hills-recording.mp4",
+      "url": "hills",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14333%26campaignId%3D5688"
     },
     {
@@ -292,6 +308,7 @@
       "responsibilities": "generic",
       "stakeholder": "Nazera Carlson, Retail Marketing Specialist",
       "scope": "2 modules",
+      "url": "hydroflask",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15604%26campaignId%3D5688"
     },
     {
@@ -309,6 +326,7 @@
       "scope": "2 modules",
       "stakeholder": "Evan Miller, Channel Marketing Manager",
       "moduleMetrics": "1,0.75,1,0.5,0,0,1,.25,1,1,0,0",
+      "url": "lander",
       "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13704%26campaignId%3D5688"
     }
   ]

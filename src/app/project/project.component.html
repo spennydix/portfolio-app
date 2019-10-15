@@ -1,6 +1,6 @@
 <div id="projectStream" class="row flex p-5" *ngIf="projects">
-  <a class="col-6 col-md-2 p-3" *ngFor="let project of projects.data" target="_blank" href="{{project.liveLink}}">
-    <div class="project-container" (click)="seeProject()">
+  <a class="col-6 col-md-2 p-3" *ngFor="let project of projects.data" target="_blank" [routerLink]="['/project-details']" [fragment]='project.url'> <!--href="{{project.liveLink}}"-->
+    <div class="project-container" (click)="seeProject()" (projectClicked)='onProjectClicked($event)'>
       <div class="p-header" [ngStyle]="{'background-image': 'url(' + project.header + ')'}"></div>
       <div class="p-logo" [ngStyle]="{'background-image': 'url(' + project.logo + ')'}"></div>
       <div class="p-id">{{project.id}}</div>

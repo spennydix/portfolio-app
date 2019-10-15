@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { DataService } from '../data.service';
 
 @Component({
@@ -13,4 +13,7 @@ export class WorkComponent implements OnInit {
   ngOnInit() {
   }
 
+  onProjectClicked(message: string): void {
+    console.log("I made it");
+  }
 }

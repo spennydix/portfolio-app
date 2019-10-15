@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Input, Output } from '@angular/core';
 import { DataService } from '../data.service';
+import { Router } from "@angular/router";
+
 @Component({
   selector: 'app-project',
   templateUrl: './project.component.html',
@@ -8,7 +10,6 @@ import { DataService } from '../data.service';
 export class ProjectComponent implements OnInit {
 
   projects : Object;
-
   constructor(private data: DataService) { }
 
   ngOnInit() {
@@ -19,9 +20,13 @@ export class ProjectComponent implements OnInit {
       })
     );
   }
+  @Input() projectName: string;
+  @Output() projectClicked: EventEmitter<string> = new EventEmitter<string>();
 
-  seeProject() {
-    console.log("clicked");
+
+  seeProject(): void{
+    console.log('clicked this');
+    this.projectClicked.emit('name of the active project');
   }
 
 }
