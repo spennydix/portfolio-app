@@ -1,0 +1,45 @@
+section#details {
+  .intro.container {
+    .row.flex {
+      align-items: center;
+
+      .preview-holder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        iframe#iframePreview {
+          border: 15px solid #001f26;
+          border-radius: 1.2rem;
+          min-height: 600px;
+          min-width: 360px;
+        }
+      }
+    }
+  }
+
+  .process{
+    position:relative;
+    .bg-grid {
+    background-image: url("../../assets/dot.png");
+    background-size: 15px;
+    filter: opacity(0.2);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+  .stats.dark-mode {
+    background-color: #001f27;
+  }
+
+  .stats {
+    ul.stats-list {
+        columns: 3;
+        list-style-type: none;
+    }
+    > *{opacity:0.5;}
+
+  }
+}

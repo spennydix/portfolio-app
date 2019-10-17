@@ -1,3 +1,96 @@
-<p>
-  project-details works!
-</p>
+<section id="details">
+  <div class="intro container">
+    <div class="row flex mt-5 mb-5">
+
+      <div class="copy col-10 col-md-6">
+        <h1>Project Name</h1>
+        {{this.project}}
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="accordion-wrapper">
+
+          <!-- ACCORDION SECTION -->
+          <div class="accordion">
+            <div class="accordion-label">
+              <i class="fa-bb fad fa-plus fa-fw"></i>
+              01title
+            </div>
+            <div class="accordion-text">
+              <div class="accordion-text-inner">
+                01content
+              </div>
+            </div>
+          </div>
+          <!-- x: ACCORDION SECTION -->
+
+          <!-- ACCORDION SECTION -->
+          <div class="accordion closed">
+            <div class="accordion-label">
+              <i class="fa-bb fad fa-plus fa-fw"></i>
+              02title
+            </div>
+            <div class="accordion-text">
+              <div class="accordion-text-inner">
+                02content
+              </div>
+            </div>
+          </div>
+          <!-- x: ACCORDION SECTION -->
+
+        </div>
+
+      </div>
+      <div class="col-0 col-md-6 preview-holder">
+        <iframe id="iframePreview" [src]=""></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="process row">
+    <div class="bg-grid"></div>
+    <div class="process-intro container mt-5 mb-5">
+      <div class="col-12 col-md-6">
+        <h2>The Process</h2>
+        <p>
+          I want to say that I always start by talking to people with the problem we are trying to solve… but that just isn’t the case. Most of the time, a company is coming to us because we offer tools to solve common problems they are having.
+        </p>
+        <p>
+          We typically start by talking to a brand, about their customers, about their products.
+        </p>
+        <p>
+          Then we talk to users, experts, and haters.
+        </p>
+      </div>
+
+    </div>
+    <div class="brainstorm container mt-5 mb-5">
+      <div class="col-12 col-md-6">
+        <h2>Collaboration</h2>
+        <p>After talking to people, the brand and internal stakeholders, I meet with a small project team, in a brainstorm meeting, where we wireframe, storyboard, and get a loose script for the story we are going to tell, the interactions we are
+          going to build and the information we are going to try to get people to digest and remember. </p>
+
+        <p>Deliverables from this meeting are disparate, but as long as we leave with a plan, we have succeeded.</p>
+      </div>
+    </div>
+    <div class="other-projects"></div>
+  </div>
+  <div class="stats dark-mode">
+    <div class="row flex no-gutters">
+      <h5 class="p-3">Stats, for nerds</h5>
+      <div class="col-12">
+        <ul class="stats-list">
+          <li>Audience:</li>
+          <li>Build Time:</li>
+          <li>Engagement:</li>
+          <li>Success:</li>
+          <li>User Tested:</li>
+          <li>New Layout:</li>
+          <li>Cient Satisfaction:</li>
+          <li>Subject Matter:</li>
+          <li>Client name:</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</section>

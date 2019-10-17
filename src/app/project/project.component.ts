@@ -26,7 +26,6 @@ export class ProjectComponent implements OnInit {
 
   seeProject(): void{
     console.log('clicked this');
-    this.projectClicked.emit('name of the active project');
   }
 
 }

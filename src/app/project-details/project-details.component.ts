@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
+import { Router, ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: 'app-project-details',
@@ -7,9 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectDetailsComponent implements OnInit {
 
-  constructor() { }
+  projects: Object;
+  activeProject: [any];
+  constructor(private route: ActivatedRoute, private data: DataService) { }
 
   ngOnInit() {
+    this.route.fragment.subscribe((fragment: string) => {
+      console.log("Active Project => ", fragment)
+    });
+
+    this.data.getProjects()
+      .subscribe((projectList => {
+        this.projects = projectList;
+        console.log(projectList);
+      })
+      );
+
   }
 
 }
