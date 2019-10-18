@@ -1,4 +1,8 @@
 section#details {
+  .breadcrumb {
+    border-radius: 0;
+  }
+
   .intro.container {
     .row.flex {
       align-items: center;
@@ -18,17 +22,18 @@ section#details {
     }
   }
 
-  .process{
-    position:relative;
+  .process {
+    position: relative;
+
     .bg-grid {
-    background-image: url("../../assets/dot.png");
-    background-size: 15px;
-    filter: opacity(0.2);
-    position: absolute;
-    width: 100%;
-    height: 100%;
+      background-image: url("../../assets/dot.png");
+      background-size: 15px;
+      filter: opacity(0.2);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
   }
-}
 
   .stats.dark-mode {
     background-color: #001f27;
@@ -36,10 +41,12 @@ section#details {
 
   .stats {
     ul.stats-list {
-        columns: 3;
-        list-style-type: none;
+      columns: 3;
+      list-style-type: none;
     }
-    > *{opacity:0.5;}
 
+    > * {
+      opacity: 0.5;
+    }
   }
 }
