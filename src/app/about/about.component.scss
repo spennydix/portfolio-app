@@ -25,6 +25,22 @@ section#about {
     margin-bottom: 2em;
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 1em;
+
+    .tools ul {
+      list-style-type: none;
+      padding-left:0px;
+      li {
+        display: inline-block;
+        padding-right:1em;
+
+        &:before {
+          content: "\f058";
+          font-family: "Font Awesome 5 Free";
+          margin-right:.5rem;
+          color:#8a9c04;
+        }
+      }
+    }
   }
 
   .skills {
@@ -43,6 +59,7 @@ section#about {
         text-transform: uppercase;
       }
     }
+
     .wordsearch-key {
       opacity: 0.5;
       padding: 1rem 0;
@@ -59,7 +76,6 @@ section#about {
   position: absolute;
   left: -4.1rem;
   // background-color: #000;
-
   // DARK MODE
   background-color: #001f26;
 }
@@ -71,23 +87,17 @@ section#about {
   position: absolute;
   left: -4.95rem;
   // border: 3px solid #fff;
-
   // DARK MODE
   border: 3px solid #052029;
-
   border-radius: 50%;
   background: #001f26;
 }
 
 .resume-item.past:before {
   // background: #fff;
-
   // DARK MODE
   background: #002c36;
-
   // border: 5px solid #000;
-  
   // DARK MODE
   border: 5px solid #001f26;
-
 }
