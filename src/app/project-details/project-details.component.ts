@@ -9,22 +9,22 @@ import { Router, ActivatedRoute } from "@angular/router";
 })
 export class ProjectDetailsComponent implements OnInit {
 
-  projects: Object;
-  activeProject: [any];
+  projects : Object;
+  activeProject: string;
   constructor(private route: ActivatedRoute, private data: DataService) { }
 
   ngOnInit() {
     this.route.fragment.subscribe((fragment: string) => {
-      console.log("Active Project => ", fragment)
+      console.log("Active Project => ", fragment);
+      this.activeProject =  fragment;
     });
 
-    this.data.getProjects()
+      this.data.getProjects()
       .subscribe((projectList => {
-        this.projects = projectList;
-        console.log(projectList);
-      })
+          this.projects = projectList
+          // console.log(projectList);
+        })
       );
-
-  }
+    }
 
 }

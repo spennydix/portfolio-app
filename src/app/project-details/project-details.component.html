@@ -1,18 +1,22 @@
-<section id="details">
+<span *ngFor="let project of projects.data">
+<section id="details"  *ngIf="project.url == this.activeProject">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="#">Work</a></li>
-      <li class="breadcrumb-item active" aria-current="page">[activeProject]</li>
+      <li class="breadcrumb-item active" aria-current="page">{{this.activeProject}}</li>
     </ol>
   </nav>
   <div class="intro container">
     <div class="row flex mt-5 mb-5">
 
       <div class="copy col-10 col-md-6">
-        <h1>[Project Name]</h1>
-        <p>
+        <h1>{{project.name}}</h1>
+        <!-- <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
+        </p> -->
+        <p>
+          {{project.description}}
+          </p>
         <div class="accordion-wrapper">
 
           <!-- ACCORDION SECTION -->
@@ -50,7 +54,7 @@
 
       </div>
       <div class="col-0 col-md-6 preview-holder">
-        <iframe id="iframePreview" [src]=""></iframe>
+        <iframe id="iframePreview" src="{{project.liveLink}}"></iframe>
       </div>
     </div>
   </div>
@@ -102,3 +106,4 @@
   </div>
 
 </section>
+</span>

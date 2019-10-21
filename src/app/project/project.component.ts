@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter, Input, Output } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { DataService } from '../data.service';
 import { Router } from "@angular/router";
 
@@ -20,12 +20,4 @@ export class ProjectComponent implements OnInit {
       })
     );
   }
-  @Input() projectName: string;
-  @Output() projectClicked: EventEmitter<string> = new EventEmitter<string>();
-
-
-  seeProject(): void{
-    console.log('clicked this');
-  }
-
 }
