@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ErrorComponent } from './error/error.component';
 
+import { SafePipe } from './safe.pipe';
 
 
 const appRoutes: Routes = [
@@ -33,7 +34,8 @@ const appRoutes: Routes = [
     ProjectDetailsComponent,
     ContactComponent,
     AboutComponent,
-    ErrorComponent
+    ErrorComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

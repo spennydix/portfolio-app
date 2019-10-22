@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
 import { Router, ActivatedRoute } from "@angular/router";
+import { Pipe, PipeTransform } from '@angular/core';
+import { DomSanitizer } from "@angular/platform-browser";
 
 @Component({
   selector: 'app-project-details',
@@ -9,22 +11,28 @@ import { Router, ActivatedRoute } from "@angular/router";
 })
 export class ProjectDetailsComponent implements OnInit {
 
-  projects : Object;
+  projects: Object;
   activeProject: string;
   constructor(private route: ActivatedRoute, private data: DataService) { }
 
   ngOnInit() {
     this.route.fragment.subscribe((fragment: string) => {
       console.log("Active Project => ", fragment);
-      this.activeProject =  fragment;
+      this.activeProject = fragment;
     });
 
-      this.data.getProjects()
+    this.data.getProjects()
       .subscribe((projectList => {
-          this.projects = projectList
-          // console.log(projectList);
-        })
+        this.projects = projectList
+        // console.log(projectList);
+      })
       );
-    }
+  }
 
+}
+export class SafePipe implements PipeTransform {
+  constructor(private sanitizer: DomSanitizer) { }
+  transform(url) {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
 }
