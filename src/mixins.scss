@@ -41,41 +41,80 @@
 .squircle {
   $w: 100px;
   $h: 100px;
-  $c: #001f27;
+  $c: #f7f7f7;
   $a: 0;
   width: $w;
   height: $h;
   @include super-rectangle($w, $h, $c, $a);
   display: inline-flex;
-
-  &.facebook {
-    $c: #1877f2;
-  }
-
-  &.instagram {
-    $c: #c32aa3;
-  }
-
-  &.twitter {
-    $c: #1da1f2;
-  }
-
-  &.linkedin {
-    $c: #007bb5;
-  }
-
-  &.dribbble {
-    $c: #ea4c89;
-  }
-
-  &.email {
-    $c: #fbbc05;
-  }
 }
 
 .squircle.facebook {
+  $w: 100px;
+  $h: 100px;
   $c: #1877f2;
+  $a: 0;
+  width: $w;
+  height: $h;
+  @include super-rectangle($w, $h, $c, $a);
+  display: inline-flex;
 }
+
+.squircle.instagram {
+  $w: 100px;
+  $h: 100px;
+  $c: #c32aa3;
+  $a: 0;
+  width: $w;
+  height: $h;
+  @include super-rectangle($w, $h, $c, $a);
+  display: inline-flex;
+}
+
+.squircle.twitter {
+  $w: 100px;
+  $h: 100px;
+  $c: #1da1f2;
+  $a: 0;
+  width: $w;
+  height: $h;
+  @include super-rectangle($w, $h, $c, $a);
+  display: inline-flex;
+}
+
+.squircle.linkedin {
+  $w: 100px;
+  $h: 100px;
+  $c: #007bb5;
+  $a: 0;
+  width: $w;
+  height: $h;
+  @include super-rectangle($w, $h, $c, $a);
+  display: inline-flex;
+}
+
+.squircle.dribbble {
+  $w: 100px;
+  $h: 100px;
+  $c: #ea4c89;
+  $a: 0;
+  width: $w;
+  height: $h;
+  @include super-rectangle($w, $h, $c, $a);
+  display: inline-flex;
+}
+
+.squircle.email {
+  $w: 100px;
+  $h: 100px;
+  $c: #fbbc05;
+  $a: 0;
+  width: $w;
+  height: $h;
+  @include super-rectangle($w, $h, $c, $a);
+  display: inline-flex;
+}
+
 @mixin transition($args...) {
   -webkit-transition: $args;
   -moz-transition: $args;

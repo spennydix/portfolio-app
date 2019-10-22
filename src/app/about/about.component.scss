@@ -26,18 +26,24 @@ section#about {
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 1em;
 
-    .tools ul {
-      list-style-type: none;
-      padding-left:0px;
-      li {
-        display: inline-block;
-        padding-right:1em;
+    .tools {
+      margin-top: 1rem;
 
-        &:before {
-          content: "\f058";
-          font-family: "Font Awesome 5 Free";
-          margin-right:.5rem;
-          color:#8a9c04;
+      ul {
+        margin-top: 0.5rem;
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+          display: inline-block;
+          padding-right: 1em;
+
+          &:before {
+            content: "\f058";
+            font-family: "Font Awesome 5 Free";
+            margin-right: 0.5rem;
+            color: #8a9c04;
+          }
         }
       }
     }
