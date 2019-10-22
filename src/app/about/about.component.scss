@@ -81,9 +81,9 @@ section#about {
   display: block;
   position: absolute;
   left: -4.1rem;
-  // background-color: #000;
+  background-color: #000;
   // DARK MODE
-  background-color: #001f26;
+  //background-color: #001f26;
 }
 
 .resume-item:before {
@@ -92,18 +92,18 @@ section#about {
   width: 2rem;
   position: absolute;
   left: -4.95rem;
-  // border: 3px solid #fff;
+  border: 3px solid #fff;
   // DARK MODE
-  border: 3px solid #052029;
+  //border: 3px solid #052029;
   border-radius: 50%;
   background: #001f26;
 }
 
 .resume-item.past:before {
-  // background: #fff;
+   background: #fff;
   // DARK MODE
-  background: #002c36;
-  // border: 5px solid #000;
+  //background: #002c36;
+   border: 5px solid #000;
   // DARK MODE
-  border: 5px solid #001f26;
+  //border: 5px solid #001f26;
 }
