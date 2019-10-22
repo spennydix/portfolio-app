@@ -1,4 +1,4 @@
-<span *ngFor="let project of projects.data">
+<span *ngFor="let project of projects?.data">
 <section id="details"  *ngIf="project.url == this.activeProject">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -55,7 +55,8 @@
 
       </div>
       <div class="col-0 col-md-6 preview-holder">
-        <iframe id="iframePreview" [src]="project.liveLink | safe"></iframe>
+        <!-- <iframe id="iframePreview" [src]="project.liveLink | safe"></iframe> -->
+        <iframe id="iframePreview" [src]="project.liveLink | safe:'html'"></iframe>
       </div>
     </div>
   </div>

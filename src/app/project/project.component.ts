@@ -16,7 +16,7 @@ export class ProjectComponent implements OnInit {
     this.data.getProjects()
     .subscribe((projectList => {
         this.projects = projectList
-        console.log(projectList);
+        // console.log(projectList);
       })
     );
   }
