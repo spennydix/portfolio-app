@@ -23,46 +23,51 @@ a {
 // DARK MODE (messy)
 
 nav.navbar.dark-mode {
-  background-color: #001f27 !important;
+  background-color: #232931 !important;
 
   * {
-    color: #839496;
+    color: #eeeeee;
   }
 
   .text-info {
-    color: #bf8c00 !important;
+    color: #4ecca3 !important;
   }
 
   a.text-info:focus,
   a.text-info:hover {
-    color: #7e651b !important;
+    color: darken(#4ecca3, 20%) !important;
   }
 
 }
 
 body.dark-mode {
-  background-color: #002b36;
-  color: #839496 !important;
+  background-color: #232931;
+  color: #eeeeee !important;
 
   &::selection {
     background: #073642 !important;
   }
 
   .text-info {
-    color: #bf8c00 !important;
+    color: #4ecca3 !important;
+  }
+
+  a.text-info:focus,
+  a.text-info:hover {
+    color: darken(#4ecca3, 20%) !important;
   }
 
   .btn.btn-primary {
-    background-color: #8a9c04;
-    border-color: #8a9c04;
+    background-color: #ff6c00;
+    border-color: #ff6c00;
 
     &:hover {
-      background-color: #7c8c03;
+      background-color: darken(#ff6c00, 20%) !important;
     }
 
     &.focus,
     &:focus {
-      box-shadow: 0 0 0 0.2rem rgba(138, 156, 26, 0.3);
+      box-shadow: 0 0 0 0.2rem rgba(255, 108, 0, 0.4);
     }
   }
 

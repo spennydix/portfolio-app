@@ -23,7 +23,7 @@ div#projectStream {
       max-height: 450px;
       height: 33vw;
       position: relative;
-      opacity: 1;
+      opacity: .8;
       transition-duration: 0.25s;
 
       .p-logo {
@@ -31,7 +31,6 @@ div#projectStream {
         height: 3.5rem;
         width: 3.5rem;
         display: none;
-        background: red;
       }
 
       .p-header {
