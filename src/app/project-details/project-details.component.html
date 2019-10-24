@@ -52,11 +52,11 @@
 
 
         </div>
-
+        <a href="{{project.liveLink}}" target="_blank" class="btn btn-primary">Check it out <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="col-0 col-md-6 preview-holder">
         <!-- <iframe id="iframePreview" [src]="project.liveLink | safe"></iframe> -->
-        <iframe id="iframePreview" [src]="project.liveLink | safe:'html'"></iframe>
+        <iframe id="iframePreview" [src]="project.liveLink | safe:'url' "></iframe>
       </div>
     </div>
   </div>

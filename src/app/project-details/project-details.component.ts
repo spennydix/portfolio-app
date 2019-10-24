@@ -13,9 +13,7 @@ export class ProjectDetailsComponent implements OnInit {
 
   projects: Object;
   activeProject: string;
-  iframe: string;
   constructor(private route: ActivatedRoute, private data: DataService) { }
-
 
   ngOnInit() {
     this.route.fragment.subscribe((fragment: string) => {
