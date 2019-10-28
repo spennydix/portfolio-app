@@ -13,6 +13,7 @@ export class ProjectDetailsComponent implements OnInit {
 
   projects: Object;
   activeProject: string;
+  iframe: string = "http://www.expertvoice.com";
   constructor(private route: ActivatedRoute, private data: DataService) { }
 
   ngOnInit() {

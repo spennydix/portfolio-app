@@ -10,8 +10,8 @@
       "preview": "assets/clients/primeAV/primeAV-preview.jpg",
       "budget": "700",
       "scope": "xxx",
-      "url": "primeAV",
-      "liveLink": "https://primeaudiovisuals.com"
+      "path": "primeAV",
+      "url": "https://primeaudiovisuals.com"
     },
     {
       "id": 2,
@@ -24,8 +24,8 @@
       "preview": "assets/clients/campusmarket/campusmarket-preview.jpg",
       "budget": "00",
       "scope": "Won first place in the Miller Competition Series @ Brigham Young University, Entrepreneurship & Technology mobile app compentition.",
-      "url": "TCM",
-      "liveLink": "https://thecampus.market"
+      "path": "TCM",
+      "url": "https://thecampus.market"
     },
     {
       "id": 3,
@@ -39,8 +39,28 @@
       "preview": "assets/clients/expertvoice/ev-preview.jpg",
       "budget": "",
       "scope": "",
-      "url": "EVstudios",
-      "liveLink": "https://www.expertvoice.com/studios/"
+      "path": "EVstudios",
+      "url": "https://www.expertvoice.com/studios/"
+    },
+    {
+      "id": 4,
+      "name": "Lenovo",
+      "audience":"~1.5 million",
+      "goal": "Product education",
+      "type": "Agency Work",
+      "length": "5",
+      "writer": "Omar Muhyar",
+      "brief": "xxx",
+      "description": "xxx",
+      "logo": "/assets/clients/lenovo/lenovo-logo.png",
+      "header": "/assets/clients/lenovo/lenovo-tile.jpg",
+      "preview": "/assets/clients/lenovo/lenovo-preview.jpg",
+      "budget": "",
+      "scope": "",
+      "quote": "",
+      "stakeholder": "",
+      "path": "lenovo",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688"
     },
     {
       "id": 4,
@@ -57,16 +77,18 @@
       "scope": "",
       "quote": "",
       "stakeholder": "",
-      "url": "teva",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688"
+      "path": "teva",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688"
     },
     {
       "id": 5,
       "name": "Nightforce",
+      "audience": "xxx",
       "type": "Agency Work",
       "length": "5",
       "writer": "Coy Whittier",
-      "description": "Prior to the release of two new Nightforce products, Wayne got in contact with us about building some content. These products were a departure from what the brand was known for and they wanted to make sure that the advantages of their product would sell better than their competition in this crowded short-range optics market.",
+      "brief": "Prior to the release of two new Nightforce products, Wayne got in contact with us about building some content. These products were a departure from what the brand was known for and they wanted to make sure that the advantages of their product would sell better than their competition in this crowded short-range optics market.",
+      "description":"Let me start by saying I'm not a gun-nut. This is an example of a project I would not have taken outside of agency life. I think it is a good example of clean layout and utilitarian interaction design, which fit - and elevated – the brand's established style.",
       "logo": "assets/clients/nightforce/nightforce-logo.png",
       "header": "assets/clients/nightforce/nightforce-header.jpg",
       "preview": "assets/clients/nightforce/nightforce-preview-image.jpg",
@@ -75,10 +97,9 @@
       "scope": "Content Update/Overhaul",
       "quote": "Overall I really like the design of the site, it's really digestible and above all else, just sexy! Really well done.",
       "stakeholder": "Wayne Dayberry, Marketing Specialist",
-      "url": "nightforce",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14844%26campaignId%3D5688"
+      "path": "nightforce",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14844%26campaignId%3D5688"
     },
-
     {
       "id": 6,
       "name": "Topo Designs",
@@ -87,53 +108,15 @@
       "writer": "Jenna Anderson",
       "description": "XXX",
       "logo": "assets/clients/topo/topo-logo.png",
-      "header": "assets/clients/topo/topo-header.jpg",
+      "header": "assets/clients/topo/topo-tile.jpg",
       "preview": "assets/clients/topo/topo-preview-image.jpg",
       "budget": "xxx",
       "goal": "XXX",
       "scope": "New Content",
       "quote": "XXX",
       "stakeholder": "XXX",
-      "url": "topo",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15687%26campaignId%3D5688"
-    },
-
-
-    {
-      "id": 7,
-      "name": "Daniel Defense",
-      "type": "Agency Work",
-      "length": "5",
-      "writer": "Taylor Anderson",
-      "description": "XXX",
-      "logo": "assets/clients/danieldefense/dd-logo-white.png",
-      "header": "assets/clients/danieldefense/dd-header.jpg",
-      "preview": "assets/clients/danieldefense/dd-preview-image.jpg",
-      "budget": "XXX",
-      "goal": "Product Launch Education",
-      "scope": "New Content",
-      "quote": "XXX",
-      "stakeholder": "XXX",
-      "url": "danieldefense",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15459%26campaignId%3D5688"
-    },
-
-    {
-      "id": 8,
-      "name": "Oakley",
-      "type": "Agency Work",
-      "goal": "Brand awareness, Product education",
-      "length": "75",
-      "writer": "Jenna Anderson, Sam Flickinger",
-      "description": "Before they cancelled they were ExpertVoice's highest profile, and higest paying client. Sadly they did cancel their contract due to the brand being rebased and more wholly absorbed by their parent, The Luxottica Group.",
-      "logo": "assets/clients/oakley/oakley-logo.png",
-      "header": "assets/clients/oakley/oakley-header.jpg",
-      "preview": "assets/clients/oakley/oakley-preview-image.jpg",
-      "budget": "258,800",
-      "scope": "15 modules",
-      "stakeholder": "Mya Maury, Global Product Training and Development Manager",
-      "url": "oakley",
-      "liveLink": "https://www.experticity.com/community/oakley"
+      "path": "topo",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15687%26campaignId%3D5688"
     },
     {
       "id": 9,
@@ -144,14 +127,14 @@
       "description": "Sawyer’s new Select Filters and Purifiers use a proprietary foam adsorption technology that is changing the game in water filtration.We created a new piece of micro-content showcasing their newest product line.",
       "logo": "assets/clients/sawyer/sawyer-logo.png",
       "goal": "Brand awareness, product seeding",
-      "header": "assets/clients/sawyer/sawyer-header.jpg",
+      "header": "assets/clients/sawyer/sawyer-tile.jpg",
       "preview": "assets/clients/sawyer/sawyer-preview.jpg",
       "video": "assets/clients/sawyer/sawyer-recording.mp4",
       "budget": "31,540",
       "scope": "3 modules",
       "stakeholder": "",
-      "url": "sawyer",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13848%26campaignId%3D5688"
+      "path": "sawyer",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13848%26campaignId%3D5688"
     },
     {
       "id": 10,
@@ -162,13 +145,13 @@
       "writer": "Seth Merrill",
       "description": "",
       "logo": "assets/clients/descente/descente-logo.png",
-      "header": "assets/clients/descente/descente-header.jpg",
+      "header": "assets/clients/descente/descente-tile.jpg",
       "preview": "assets/clients/descente/descente-preview.jpg",
       "budget": "",
       "scope": "",
       "stakeholder": "Patrick Purcell, Marketing Manager – USA",
-      "url": "descente",
-    "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14540%26campaignId%3D5688"
+      "path": "descente",
+    "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14540%26campaignId%3D5688"
     },
     {
       "id": 11,
@@ -184,8 +167,8 @@
       "budget": "130,736",
       "scope": "5 modules",
       "stakeholder": "Chad Lavachek, Retail Marketing Manage",
-      "url": "toms",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13866%26campaignId%3D5688"
+      "path": "toms",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13866%26campaignId%3D5688"
     },
     {
       "id": 12,
@@ -201,8 +184,8 @@
       "budget": "13,000",
       "scope": "1 module",
       "stakeholder": "XXX",
-      "url": "voke",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15536%26campaignId%3D5688"
+      "path": "voke",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15536%26campaignId%3D5688"
     },
     {
       "id": 13,
@@ -213,49 +196,13 @@
       "writer": "Seth Merrill",
       "description": "In this overhaul we set Zeal Optics up for a more focused, seasonally-relevant approach. For this coming winter season, members will be reminded of what Zeal Optics stands for, as well as learn about the latest goggles and goggle technologies.",
       "logo": "assets/clients/zeal/zeal-logo.png",
-      "header": "assets/clients/zeal/zeal-header.jpg",
+      "header": "assets/clients/zeal/zeal-tile.jpg",
       "preview": "assets/clients/zeal/zeal-preview-image.jpg",
       "budget": "28,900",
       "scope": "2 modules",
       "stakeholder": "Mike Lewis, Director of Brand Activation & Digital Strategy",
-      "url": "zeal",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14022%26campaignId%3D5688"
-
-    },
-    {
-      "id": 14,
-      "name": "Breville",
-      "goal": "Brand awareness, product seeding",
-      "type": "Agency Work",
-      "length": "10",
-      "writer": "Matthew Nanes",
-      "description": "Breville’s Oracle® Touch makes premium, automatic, café-quality espresso. In these new modules, we take a deep dive on Breville’s “super-automatic” espresso machine alongside Breville’s coffee master Alejandra Lin. Better yet, we even threw a coffee social hosted by Alejandra and Experticity to test out the Oracle® Touch to coffee fanatics. What happens? You’re going to have to take the lessons to find out.",
-      "logo": "assets/clients/breville/breville-logo.png",
-      "header": "assets/clients/breville/breville-header-image.jpg",
-      "preview": "assets/clients/breville/breville-preview-image.jpg",
-      "video": "assets/clients/breville/breville-recording.mp4",
-      "budget": "20,000",
-      "scope": "3 modules",
-      "stakeholder": "Clifford Torng, Global Go-to-Market Officer",
-      "url": "breville",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13796%26campaignId%3D5688"
-    },
-    {
-      "id": 15,
-      "name": "Dakine",
-      "goal": "Brand awareness, product seeding",
-      "type": "Agency Work",
-      "writer": "Seth Merrill",
-      "length": "10",
-      "description": "With its home base in Hood River, Oregon, Dakine has access to snowy slopes (and the athletes that ride them) nearly year round. This gives its designers a constant stream of product testers to tap for inspiration and feedback. What does that mean for the customer? Products that aren’t created in a lab, but on the slopes.We talked to two Dakine designers to get their insights and stories behind this season’s snow bibs and backpacks.",
-      "logo": "assets/clients/dakine/dakine-logo.png",
-      "header": "assets/clients/dakine/dakine-header.jpg",
-      "preview": "assets/clients/dakine/dakine-preview.jpg",
-      "budget": "7,500",
-      "scope": "2 modules",
-      "stakeholder": "Madeline Eastman, Ecommerce Marketing Manager",
-      "url": "dakine",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13616%26campaignId%3D5688"
+      "path": "zeal",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14022%26campaignId%3D5688"
     },
     {
       "id": 16,
@@ -272,8 +219,8 @@
       "scope": "2 modules",
       "stakeholder": "Tabitha Luckett, Sales Director",
       "video": "assets/clients/greenPan/greenPan-recording.mp4",
-      "url": "greenpan",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
+      "path": "greenpan",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
     },
     {
       "id": 17,
@@ -290,8 +237,8 @@
       "scope": "35 modules",
       "stakeholder": "Christina Savignano, Education Team Leader",
       "video": "assets/clients/hills/hills-recording.mp4",
-      "url": "hills",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14333%26campaignId%3D5688"
+      "path": "hills",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14333%26campaignId%3D5688"
     },
     {
       "id": 18,
@@ -308,26 +255,8 @@
       "responsibilities": "generic",
       "stakeholder": "Nazera Carlson, Retail Marketing Specialist",
       "scope": "2 modules",
-      "url": "hydroflask",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15604%26campaignId%3D5688"
-    },
-    {
-      "id": 19,
-      "name": "Lander",
-      "goal": "Brand awareness, product seeding",
-      "type": "Agency Work",
-      "length": "10",
-      "writer": "Kaylee Hahn",
-      "description": "Lander was releasing its first REI exclusive product, the Cairn, and we spoke to a designer to get the scoop on some of its most interesting features. In this experience, you'll find more information about this game-changing lantern, as well as:<ul><li>An introduction to the Lander product ecosystem</li><li>A deeper dive into key Lander technologies, including Thermoline</li><li>Insights from the brand about how these products were created, named, and tested</li></ul>",
-      "logo": "assets/clients/lander/lander-logo.png",
-      "header": "assets/clients/lander/lander-tile.jpg",
-      "preview": "assets/clients/lander/lander-preview.jpg",
-      "budget": "14,700",
-      "scope": "2 modules",
-      "stakeholder": "Evan Miller, Channel Marketing Manager",
-      "moduleMetrics": "1,0.75,1,0.5,0,0,1,.25,1,1,0,0",
-      "url": "lander",
-      "liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13704%26campaignId%3D5688"
+      "path": "hydroflask",
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15604%26campaignId%3D5688"
     }
   ]
 }

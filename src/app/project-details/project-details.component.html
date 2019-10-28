@@ -1,8 +1,8 @@
 <span *ngFor="let project of projects?.data">
-<section id="details"  *ngIf="project.url == this.activeProject">
+<section id="details"  *ngIf="project.path == this.activeProject">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Work</a></li>
+      <li class="breadcrumb-item work-link"><a href="#">Work</a></li>
       <!-- <li class="breadcrumb-item active" aria-current="page">{{this.activeProject}}</li> -->
       <li class="breadcrumb-item active" aria-current="page">{{project.name}}</li>
     </ol>
@@ -28,7 +28,7 @@
             </div>
             <div class="accordion-text">
               <div class="accordion-text-inner">
-                <p>01content</p>
+                <p>{{project.problem}}</p>
               </div>
             </div>
           </div>
@@ -42,21 +42,32 @@
             </div>
             <div class="accordion-text">
               <div class="accordion-text-inner">
-                <p>
-                  02content
-                </p>
+                <p>{{project.plan}}</p>
               </div>
             </div>
           </div>
           <!-- x: ACCORDION SECTION -->
 
+          <!-- ACCORDION SECTION -->
+          <div class="accordion closed">
+            <div class="accordion-label">
+              <i class="fa-bb fas fa-plus fa-fw"></i>
+                Responsibilities
+            </div>
+            <div class="accordion-text">
+              <div class="accordion-text-inner">
+                  <p>{{project.responsibilities}}</p>
+              </div>
+            </div>
+          </div>
+          <!-- x: ACCORDION SECTION -->
 
         </div>
-        <a href="{{project.liveLink}}" target="_blank" class="btn btn-primary">Check it out <i class="fas fa-arrow-right"></i></a>
+        <a href="{{project.url}}" target="_blank" class="btn btn-primary">Check it out <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="col-0 col-md-6 preview-holder">
-        <!-- <iframe id="iframePreview" [src]="project.liveLink | safe"></iframe> -->
-        <iframe id="iframePreview" [src]="project.liveLink | safe:'url' "></iframe>
+        <!-- <iframe id="iframePreview" [src]="project.url | safe"></iframe> -->
+        <iframe id="iframePreview" [src]="project.url | safe:'resourceUrl' "></iframe>
       </div>
     </div>
   </div>
@@ -93,15 +104,15 @@
       <h5 class="p-3">Stats, for nerds</h5>
       <div class="col-12">
         <ul class="stats-list">
-          <li>Audience:</li>
+          <li>Audience: {{project.audience}}</li>
           <li>Build Time:</li>
           <li>Engagement:</li>
           <li>Success:</li>
           <li>User Tested:</li>
           <li>New Layout:</li>
           <li>Cient Satisfaction:</li>
-          <li>Subject Matter:</li>
-          <li>Client name:</li>
+          <li>Writer: {{project.writer}}</li>
+          <li>Client name: {{project.stakeholder}}</li>
         </ul>
       </div>
     </div>

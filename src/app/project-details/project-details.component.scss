@@ -1,7 +1,30 @@
 @import '../../mixins.scss';
+
+div#storyline-navigation-header {
+  display: none;
+}
+
 section#details {
   .breadcrumb {
     border-radius: 0;
+    background-color: #242a31;
+
+    li {
+      color: #eee !important;
+      opacity: 0.5;
+
+      &.work-link {
+        &:hover {
+          opacity: 0.8;
+          cursor:pointer;
+        }
+        *:hover{cursor:pointer;}
+      }
+      *{
+        color: #eee !important;
+        text-decoration:none;
+      }
+    }
   }
 
   .intro.container {
@@ -14,10 +37,14 @@ section#details {
         justify-content: center;
 
         iframe#iframePreview {
-          border: 15px solid #001f26;
+          border: 15px solid rgba(0,0,0,0.3);
           border-radius: 1.2rem;
           min-height: 600px;
           min-width: 360px;
+
+          div#storyline-navigation-header {
+            display: none !important;
+          }
         }
       }
     }
@@ -51,15 +78,11 @@ section#details {
     }
   }
 }
-
 /* ACCORDIONS ___________________________________________________________________________ */
-
 .accordion-label {
-
   .fa-bb {
-    @include transition(transform .20s ease-in-out);
+    @include transition(transform 0.20s ease-in-out);
     @include rotate(90deg);
-
     font-size: 110%;
     padding: 0.5rem;
   }
@@ -78,18 +101,20 @@ section#details {
   -webkit-transition: all 1.0s ease 0s;
   transition-delay: 0.25s;
   overflow: hidden;
-    cursor: auto;
-    height: auto;
+  cursor: auto;
+  height: auto;
   max-height: 300px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
+
 .closed .accordion-text {
-  max-height: 0px;
+  max-height: 0;
   transition: all 0.65s ease 0s;
   -webkit-transition: all 0.65s ease 0s;
   transition-delay: 0s;
 }
+
 .accordion-label {
   display: inline-flex;
   align-items: center;
@@ -98,44 +123,47 @@ section#details {
   transition: all 0.65s ease 0s;
   -webkit-transition: all 1.0s ease 0s;
 }
+
 .accordion-label:hover {
   color: #000;
-  cursor:pointer;
+  cursor: pointer;
 }
+
 .closed .accordion-label {
   color: #999;
 }
+
 .accordion-text .accordion-text-inner p {
   padding: 5px 15px 15px;
-  margin: 0px;
+  margin: 0;
   font-size: 0.9em;
   transition: all 0.65s ease 0s;
   transition-delay: 0.4s;
   opacity: 1;
 }
+
 .closed .accordion-text .accordion-text-inner p {
   opacity: 0;
   transition: all 0.65s ease 0s;
   transition-delay: 0s;
 }
-
-
 /* X: ACCORDIONS ___________________________________________________________________________ */
-
 // Accordion
+
 .accordion-text .accordion-text-inner p {
-    padding: 5px 15px 15px;
-    margin: 0px;
-    font-size: 0.9em;
-    -webkit-transition: all 0.65s ease 0s;
-    transition: all 0.65s ease 0s;
-    -webkit-transition-delay: 0.4s;
-    transition-delay: 0.4s;
-    opacity: 1;
+  padding: 5px 15px 15px;
+  margin: 0;
+  font-size: 0.9em;
+  -webkit-transition: all 0.65s ease 0s;
+  transition: all 0.65s ease 0s;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+  opacity: 1;
 }
+
 .accordion-text-inner p {
-    border-left: 1px solid #c6c6c6;
-    margin-left: 14px !important;
+  border-left: 1px solid #c6c6c6;
+  margin-left: 14px !important;
 }
 
 .accordion-label {
@@ -145,7 +173,6 @@ section#details {
 .accordion-label:hover {
   color: white;
 }
-
 /* Pluses to X's */
 .accordion:not(.closed) i.fa-plus {
   transform: rotate(135deg);
@@ -156,5 +183,5 @@ i.fa-plus {
   padding: 0;
   margin-right: 0.5em;
   margin-left: -0.5rem;
-  color: #8a9c04;
+  color: #4ecca3;
 }
