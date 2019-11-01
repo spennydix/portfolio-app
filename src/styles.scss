@@ -37,7 +37,6 @@ nav.navbar.dark-mode {
   a.text-info:hover {
     color: darken(#4ecca3, 20%) !important;
   }
-
 }
 
 body.dark-mode {
@@ -71,4 +70,13 @@ body.dark-mode {
     }
   }
 
+  .text-primary {
+    color: #ff6c00 !important;
+
+    &a {
+      &:hover {
+        color: darken(#ff6c00, 20%) !important;
+      }
+    }
+  }
 }

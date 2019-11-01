@@ -1,0 +1,91 @@
+div#mockStream {
+  a {
+    cursor: pointer;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: none !important;
+
+      * {
+        text-decoration: none !important;
+        cursor: pointer;
+      }
+    }
+
+    .mock-container {
+      border-radius: 0.25em;
+      overflow: hidden;
+      padding: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      min-height: 200px;
+      max-height: 350px;
+      height: 15vw;
+      position: relative;
+      opacity: .8;
+      transition-duration: 0.25s;
+
+      .m-logo {
+        background-size: cover;
+        height: 3.5rem;
+        width: 3.5rem;
+        display: none;
+      }
+
+      .m-header {
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        top: 0;
+        // filter: blur(1px);
+        background-position: center;
+        background-size: cover;
+        opacity: .7;
+        transition-duration: 0.25s;
+      }
+
+      .m-id {
+        position: absolute;
+        left: 1.5em;
+      }
+
+      .text-wrapper {
+        height: fit-content;
+        width: 100%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-self: flex-end;
+
+        .m-title {
+          width: 100%;
+        }
+
+        .m-description {
+          display: none;
+        }
+
+        p.m-type {
+          margin-bottom: 0;
+          font-style: italic;
+          opacity: 0.75;
+        }
+      }
+
+      * {
+        color: #fff;
+      }
+
+      &:hover {
+        opacity: 1;
+
+        .m-header {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

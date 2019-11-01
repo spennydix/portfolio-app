@@ -1,20 +1,6 @@
 {
   "data": [{
       "id": 1,
-      "name": "Prime AV",
-      "type": "Marketing Site",
-      "length": "xxx",
-      "description": "A mid-scale Audio Visuals company needed to create a website to legitimze their new sibling company. I spun this site up in under 6 hours of legitimate work, it's a pretty basic informational site + contact widget, and that is all they really paid for.",
-      "logo": "assets/clients/primeAV/primeAV-logo.png",
-      "header": "assets/clients/primeAV/primeAV-header.jpg",
-      "preview": "assets/clients/primeAV/primeAV-preview.jpg",
-      "budget": "700",
-      "scope": "xxx",
-      "path": "primeAV",
-      "url": "https://primeaudiovisuals.com"
-    },
-    {
-      "id": 2,
       "name": "Campus Market",
       "type": "Product Design",
       "description": "This is a joint venture between a few friends and I. It is basically a replacement for craigslist geared specifically towards university students. Users of our site avoid the spam and the privacy concerns, not to mention the archaic UX, that Craigslist is widely known for.",
@@ -28,7 +14,7 @@
       "url": "https://thecampus.market"
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "ExpertVoice Studios",
       "type": "Marketing Site",
       "length": "",
@@ -43,9 +29,9 @@
       "url": "https://www.expertvoice.com/studios/"
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Lenovo",
-      "audience":"~1.5 million",
+      "audience": "~1.5 million",
       "goal": "Product education",
       "type": "Agency Work",
       "length": "5",
@@ -88,7 +74,7 @@
       "length": "5",
       "writer": "Coy Whittier",
       "brief": "Prior to the release of two new Nightforce products, Wayne got in contact with us about building some content. These products were a departure from what the brand was known for and they wanted to make sure that the advantages of their product would sell better than their competition in this crowded short-range optics market.",
-      "description":"Let me start by saying I'm not a gun-nut. This is an example of a project I would not have taken outside of agency life. I think it is a good example of clean layout and utilitarian interaction design, which fit - and elevated – the brand's established style.",
+      "description": "Let me start by saying I'm not a gun-nut. This is an example of a project I would not have taken outside of agency life. I think it is a good example of clean layout and utilitarian interaction design, which fit - and elevated – the brand's established style.",
       "logo": "assets/clients/nightforce/nightforce-logo.png",
       "header": "assets/clients/nightforce/nightforce-header.jpg",
       "preview": "assets/clients/nightforce/nightforce-preview-image.jpg",
@@ -102,42 +88,6 @@
     },
     {
       "id": 6,
-      "name": "Topo Designs",
-      "type": "Agency Work",
-      "length": "3",
-      "writer": "Jenna Anderson",
-      "description": "XXX",
-      "logo": "assets/clients/topo/topo-logo.png",
-      "header": "assets/clients/topo/topo-tile.jpg",
-      "preview": "assets/clients/topo/topo-preview-image.jpg",
-      "budget": "xxx",
-      "goal": "XXX",
-      "scope": "New Content",
-      "quote": "XXX",
-      "stakeholder": "XXX",
-      "path": "topo",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15687%26campaignId%3D5688"
-    },
-    {
-      "id": 9,
-      "name": "Sawyer",
-      "type": "Agency Work",
-      "length": "17",
-      "writer": "Jenna Anderson",
-      "description": "Sawyer’s new Select Filters and Purifiers use a proprietary foam adsorption technology that is changing the game in water filtration.We created a new piece of micro-content showcasing their newest product line.",
-      "logo": "assets/clients/sawyer/sawyer-logo.png",
-      "goal": "Brand awareness, product seeding",
-      "header": "assets/clients/sawyer/sawyer-tile.jpg",
-      "preview": "assets/clients/sawyer/sawyer-preview.jpg",
-      "video": "assets/clients/sawyer/sawyer-recording.mp4",
-      "budget": "31,540",
-      "scope": "3 modules",
-      "stakeholder": "",
-      "path": "sawyer",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13848%26campaignId%3D5688"
-    },
-    {
-      "id": 10,
       "name": "Descente",
       "type": "Agency Work",
       "goal": "Brand awareness, product seeding",
@@ -151,10 +101,10 @@
       "scope": "",
       "stakeholder": "Patrick Purcell, Marketing Manager – USA",
       "path": "descente",
-    "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14540%26campaignId%3D5688"
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14540%26campaignId%3D5688"
     },
     {
-      "id": 11,
+      "id": 7,
       "name": "TOMS",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
@@ -171,13 +121,14 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13866%26campaignId%3D5688"
     },
     {
-      "id": 12,
+      "id": 8,
       "name": "Voke",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
       "length": "20",
       "writer": "Tiffany Caldwell",
-      "description": "Description Needed FPO",
+      "brief": "Voke was having a hard time selling their energy product in naturals retailers like GNC and educating their affiliates on the benefits / use-cases of their product.",
+      "description": "Voke makes an energy tablet with non-sugar ingredients. In my experience one tab gives you an almost immediate 3 hours of energy and focus. The content my team created for them helped improve retail sell-through and consumer product education.",
       "logo": "assets/clients/voke/voke-logo.png",
       "header": "assets/clients/voke/voke-header.jpg",
       "preview": "assets/clients/voke/voke-preview-image.jpg",
@@ -188,24 +139,7 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15536%26campaignId%3D5688"
     },
     {
-      "id": 13,
-      "name": "Zeal Optics",
-      "goal": "Brand awareness, product seeding",
-      "type": "Agency Work",
-      "length": "8",
-      "writer": "Seth Merrill",
-      "description": "In this overhaul we set Zeal Optics up for a more focused, seasonally-relevant approach. For this coming winter season, members will be reminded of what Zeal Optics stands for, as well as learn about the latest goggles and goggle technologies.",
-      "logo": "assets/clients/zeal/zeal-logo.png",
-      "header": "assets/clients/zeal/zeal-tile.jpg",
-      "preview": "assets/clients/zeal/zeal-preview-image.jpg",
-      "budget": "28,900",
-      "scope": "2 modules",
-      "stakeholder": "Mike Lewis, Director of Brand Activation & Digital Strategy",
-      "path": "zeal",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14022%26campaignId%3D5688"
-    },
-    {
-      "id": 16,
+      "id": 9,
       "name": "Green Pan",
       "type": "Agency Work",
       "length": "6",
@@ -223,7 +157,7 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
     },
     {
-      "id": 17,
+      "id": 10,
       "name": "Hill's Pet Nutrition",
       "goal": "Category education",
       "type": "Agency Work",
@@ -241,22 +175,18 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14333%26campaignId%3D5688"
     },
     {
-      "id": 18,
-      "name": "Hydro Flask",
-      "goal": "Brand awareness, product seeding",
-      "type": "Agency Work",
-      "length": "6",
-      "writer": "Seth Merrill, Jenn Olsen",
-      "description": "I inherited this project after 2 sites had already been built, we had missed the mark. I was in charge of rebuilding both sites and fixing the client relationship. What I created was more in line with what the client wanted originally and the only edits we had to make were adding 8413651864 icons. A big brand for ExpertVoice, not much contract value, because the bulk of our revenue was made in order commission.",
-      "logo": "assets/clients/hydroflask/hydroflask-logo.png",
-      "header": "assets/clients/hydroflask/hydroflask-tile.jpg",
-      "preview": "assets/clients/hydroflask/hydroflask-preview.jpg",
-      "budget": "4,500",
-      "responsibilities": "generic",
-      "stakeholder": "Nazera Carlson, Retail Marketing Specialist",
-      "scope": "2 modules",
-      "path": "hydroflask",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15604%26campaignId%3D5688"
+      "id": 11,
+      "name": "Prime AV",
+      "type": "Marketing Site",
+      "length": "xxx",
+      "description": "A mid-scale Audio Visuals company needed to create a website to legitimze their new sibling company. I spun this site up in under 6 hours of legitimate work, it's a pretty basic informational site + contact widget, and that is all they really paid for.",
+      "logo": "assets/clients/primeAV/primeAV-logo.png",
+      "header": "assets/clients/primeAV/primeAV-header.jpg",
+      "preview": "assets/clients/primeAV/primeAV-preview.jpg",
+      "budget": "700",
+      "scope": "xxx",
+      "path": "primeAV",
+      "url": "https://primeaudiovisuals.com"
     }
   ]
 }

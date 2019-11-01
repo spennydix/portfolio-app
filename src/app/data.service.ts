@@ -11,7 +11,8 @@ export class DataService {
   getProjects() {
     return this.http.get('/assets/projects-data.json')
   }
-  getThatProject() {
-    return this.http.get('/assets/projects-data.json')
+  getMocks() {
+    return this.http.get('/assets/mocks-data.json')
   }
+
 }
