@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import {NgsRevealModule} from 'ngx-scrollreveal';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,7 @@ import { MockComponent } from './mock/mock.component';
 import { ErrorComponent } from './error/error.component';
 
 import { SafePipe } from './safe.pipe';
+
 
 
 const appRoutes: Routes = [
@@ -42,6 +44,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgsRevealModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: false } // <-- debugging purposes only

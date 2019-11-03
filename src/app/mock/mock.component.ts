@@ -5,7 +5,7 @@ import { Router } from "@angular/router";
 @Component({
   selector: 'app-mock',
   templateUrl: './mock.component.html',
-  styleUrls: ['./mock.component.scss']
+  styleUrls: ['./mock.component.scss'],
 })
 export class MockComponent implements OnInit {
 
