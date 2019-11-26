@@ -11,7 +11,7 @@ import { DomSanitizer } from "@angular/platform-browser";
 })
 export class ProjectDetailsComponent implements OnInit {
 
-  projects: Object;
+  projects: any;
   activeProject: string;
   iframe: string = "http://www.expertvoice.com";
   constructor(private route: ActivatedRoute, private data: DataService) { }
