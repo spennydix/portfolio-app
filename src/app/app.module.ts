@@ -14,8 +14,10 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { MockComponent } from './mock/mock.component';
 import { ErrorComponent } from './error/error.component';
+import { MockDetailsComponent } from './mock-details/mock-details.component';
 
 import { SafePipe } from './safe.pipe';
+
 
 
 
@@ -40,6 +42,7 @@ const appRoutes: Routes = [
     ErrorComponent,
     SafePipe,
     MockComponent,
+    MockDetailsComponent,
   ],
   imports: [
     BrowserModule,

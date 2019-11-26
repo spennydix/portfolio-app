@@ -1,4 +1,5 @@
-<div id="mockStream" class="row flex p-5 no-gutters" *ngIf="mocks" [ngsRevealSet]="{ reset:true}" [ngsInterval]="50" [ngsSelector]="'.mock-container'">
+<div id="mockStream" class="row flex p-5 no-gutters" *ngIf="mocks">
+  <!-- [ngsRevealSet]="{ reset:true}" [ngsInterval]="50" [ngsSelector]="'.mock-container'" -->
   <a class="col-6 col-md-4 p-3" *ngFor="let mock of mocks.data"  [routerLink]="['/mock-details']" [fragment]='mock.path'>
     <div class="mock-container" (mockClicked)='onmockClicked($event)'>
       <div class="m-header" [ngStyle]="{'background-image': 'url(' + mock.header + ')'}"></div>

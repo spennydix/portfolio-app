@@ -71,11 +71,11 @@ body.dark-mode {
   }
 
   .text-primary {
-    color: #ff6c00 !important;
+    color: #ff8f00!important;
 
     &a {
       &:hover {
-        color: darken(#ff6c00, 20%) !important;
+        color: darken(#ff8f00, 20%) !important;
       }
     }
   }
