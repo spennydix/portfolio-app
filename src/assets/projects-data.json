@@ -1,23 +1,10 @@
 {
   "data": [{
       "id": 1,
-      "name": "Campus Market",
-      "type": "Product Design",
-      "description": "This is a joint venture between a few friends and I. It is basically a replacement for craigslist geared specifically towards university students. Users of our site avoid the spam and the privacy concerns, not to mention the archaic UX, that Craigslist is widely known for.",
-      "responsibilities": "I own all user experience aspects of this site. It started as wireframes, moved to high fidelity mocks, where we tested, the I built and styled all the components in angular 6. My cofounders handled the data architecture and the integrations with other sites, as well as security – but the design was all me.",
-      "logo": "assets/clients/campusmarket/campusmarket-logo.png",
-      "header": "assets/clients/campusmarket/campusmarket-header.png",
-      "preview": "assets/clients/campusmarket/campusmarket-preview.jpg",
-      "budget": "00",
-      "scope": "Won first place in the Miller Competition Series @ Brigham Young University, Entrepreneurship & Technology mobile app compentition.",
-      "path": "TCM",
-      "url": "https://thecampus.market"
-    },
-    {
-      "id": 2,
       "name": "ExpertVoice Studios",
       "type": "Marketing Site",
       "length": "",
+      "buildtime": "6 hours",
       "description": "This is a site I put together, meant to house all the great work that our agency created. I faught a terribly annoying wordpress plugin, and accomplished like 80% of my goal for usability and interface design.",
       "responsibilities": "xx",
       "logo": "assets/clients/expertvoice/ev-logo.png",
@@ -29,12 +16,13 @@
       "url": "https://www.expertvoice.com/studios/"
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Lenovo",
       "audience": "~1.5 million",
       "goal": "Product education",
       "type": "Agency Work",
       "length": "5",
+      "buildtime": "20 hours",
       "writer": "Omar Muhyar",
       "brief": "xxx",
       "description": "xxx",
@@ -49,11 +37,12 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688"
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Teva",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
       "length": "5",
+      "buildtime": "10 hours",
       "writer": "Jenna Anderson",
       "description": "Teva was celebrating the 100th anniversary of the Grand Canyon being a national park, they wanted to educate all their influencers about the significance of the canyon and showcase their new line of products.",
       "logo": "/assets/clients/teva/teva-logo.png",
@@ -67,11 +56,12 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688"
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Nightforce",
       "audience": "xxx",
       "type": "Agency Work",
       "length": "5",
+      "buildtime": "36 hours",
       "writer": "Coy Whittier",
       "brief": "Prior to the release of two new Nightforce products, Wayne got in contact with us about building some content. These products were a departure from what the brand was known for and they wanted to make sure that the advantages of their product would sell better than their competition in this crowded short-range optics market.",
       "description": "Let me start by saying I'm not a gun-nut. This is an example of a project I would not have taken outside of agency life. I think it is a good example of clean layout and utilitarian interaction design, which fit - and elevated – the brand's established style.",
@@ -87,9 +77,10 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14844%26campaignId%3D5688"
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Descente",
       "type": "Agency Work",
+      "buildtime": "36 hours",
       "goal": "Brand awareness, product seeding",
       "length": "",
       "writer": "Seth Merrill",
@@ -104,9 +95,10 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14540%26campaignId%3D5688"
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "TOMS",
       "goal": "Brand awareness, product seeding",
+      "buildtime": "36 hours",
       "type": "Agency Work",
       "length": "25",
       "writer": "Alex Nygaard",
@@ -121,11 +113,12 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13866%26campaignId%3D5688"
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Voke",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
       "length": "20",
+      "buildtime": "15 hours",
       "writer": "Tiffany Caldwell",
       "brief": "Voke was having a hard time selling their energy product in naturals retailers like GNC and educating their affiliates on the benefits / use-cases of their product.",
       "description": "Voke makes an energy tablet with non-sugar ingredients. In my experience one tab gives you an almost immediate 3 hours of energy and focus. The content my team created for them helped improve retail sell-through and consumer product education.",
@@ -139,7 +132,7 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15536%26campaignId%3D5688"
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Green Pan",
       "type": "Agency Work",
       "length": "6",
@@ -157,7 +150,7 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "Hill's Pet Nutrition",
       "goal": "Category education",
       "type": "Agency Work",
@@ -175,10 +168,11 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14333%26campaignId%3D5688"
     },
     {
-      "id": 11,
+      "id": 10,
       "name": "Prime AV",
       "type": "Marketing Site",
       "length": "xxx",
+      "buildtime": "3 hours",
       "description": "A mid-scale Audio Visuals company needed to create a website to legitimze their new sibling company. I spun this site up in under 6 hours of legitimate work, it's a pretty basic informational site + contact widget, and that is all they really paid for.",
       "logo": "assets/clients/primeAV/primeAV-logo.png",
       "header": "assets/clients/primeAV/primeAV-header.jpg",
@@ -187,6 +181,20 @@
       "scope": "xxx",
       "path": "primeAV",
       "url": "https://primeaudiovisuals.com"
+    },
+    {
+      "id": 11,
+      "name": "Campus Market",
+      "type": "Product Design",
+      "description": "This is a joint venture between a few friends and I. It is basically a replacement for craigslist geared specifically towards university students. Users of our site avoid the spam and the privacy concerns, not to mention the archaic UX, that Craigslist is widely known for.",
+      "responsibilities": "I own all user experience aspects of this site. It started as wireframes, moved to high fidelity mocks, where we tested, the I built and styled all the components in angular 6. My cofounders handled the data architecture and the integrations with other sites, as well as security – but the design was all me.",
+      "logo": "assets/clients/campusmarket/campusmarket-logo.png",
+      "header": "assets/clients/campusmarket/campusmarket-header.png",
+      "preview": "assets/clients/campusmarket/campusmarket-preview.jpg",
+      "budget": "00",
+      "scope": "Won first place in the Miller Competition Series @ Brigham Young University, Entrepreneurship & Technology mobile app compentition.",
+      "path": "TCM",
+      "url": "https://thecampus.market"
     }
   ]
 }

@@ -1,5 +1,16 @@
-.sectionTitle{
-  color:#eee;
-  opacity:0.5;
-  padding:0 2rem;
+.sectionTitle {
+  display: flex;
+  color: #eee;
+  opacity: 0.5;
+  padding: 0 2rem;
+  align-items: center;
+
+  &:after {
+    content: "";
+    width: auto;
+    margin-left: 1rem;
+    background-color: rgba(255,255,255,0.2);
+    height: 3px;
+    flex: 1 1 auto;
+  }
 }

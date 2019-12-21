@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router} from "@angular/router";
+import { DataService } from '../data.service';
+import { Router, ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: 'app-mock-details',
@@ -8,9 +9,22 @@ import { Router} from "@angular/router";
 })
 export class MockDetailsComponent implements OnInit {
 
-  constructor() { }
+  mocks: any;
+  activeMock: string;
+  constructor(private route: ActivatedRoute, private data: DataService) { }
 
   ngOnInit() {
+    this.route.fragment.subscribe((fragment: string) => {
+      // console.log("Active Mock => ", fragment);
+      this.activeMock = fragment;
+    });
+
+    this.data.getMocks()
+      .subscribe((mockList => {
+        this.mocks = mockList
+        // console.log(mockList);
+      })
+      );
   }
 
 }

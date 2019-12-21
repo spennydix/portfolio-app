@@ -1,33 +1,34 @@
 {
   "data": [
     {
-    "id": 8,
+    "id": 1,
+    "name": "Backslash",
+    "type": "Brand Design",
+    "description": "I play soccer every week on a team of my friends coworkers – they are software engineers and they needed jerseys designed for their team. Their team name is &lduo;backslash&rduo; (a commonly used computer key in engineering)",
+    "logo": "assets/clients/backslash/backslash-logo.png",
+    "header": "assets/clients/backslash/backslash-tile.png",
+    "path": "backslash",
+    "url": ""
+  },
+    {
+    "id": 2,
     "name": "Project Targa",
     "type": "Spec work",
     "description": "Sawyer’s new Select Filters and Purifiers use a proprietary foam adsorption technology that is changing the game in water filtration.We created a new piece of micro-content showcasing their newest product line.",
-    "logo": "assets/clients/sawyer/sawyer-logo.png",
-    "header": "assets/clients/sawyer/sawyer-tile.jpg",
-    "path": "projecttarga",
+    "logo": "assets/clients/targa/targa-logo.png",
+    "header": "assets/clients/targa/targa-tile.png",
+    "path": "targa",
     "url": ""
   },
   {
-    "id": 7,
-    "name": "RentSoft",
+    "id": 3,
+    "name": "Top Hat",
     "type": "For funsies",
 
     "description": "XXX",
-    "logo": "assets/clients/topo/topo-logo.png",
-    "header": "assets/clients/topo/topo-tile.jpg",
-    "path": "rentsoft",
-    "url": ""
-  },
-  {
-    "id": 7,
-    "name": "Budgeting App",
-    "type": "Deign Challenge",
-    "logo": "assets/clients/topo/topo-logo.png",
-    "header": "assets/clients/zeal/zeal-tile.jpg",
-    "path": "app3",
+    "logo": "assets/clients/tophat/tophat-logo.png",
+    "header": "assets/clients/tophat/tophat-tile.png",
+    "path": "tophat",
     "url": ""
   }
   ]

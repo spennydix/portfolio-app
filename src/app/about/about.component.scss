@@ -1,4 +1,5 @@
 @import '../../mixins.scss';
+
 section#about {
   img.avatar-image {
     width: 10vw;
@@ -39,6 +40,15 @@ section#about {
           display: inline-block;
           padding-right: 1em;
 
+          &.partial {
+            &:before {
+              content: "\f192";
+              font-family: "Font Awesome 5 Free";
+              margin-right: 0.5rem;
+              color: #ffcc00;
+            }
+          }
+
           &:before {
             content: "\f058";
             font-family: "Font Awesome 5 Free";
@@ -64,6 +74,7 @@ section#about {
         -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: vertical-lr;
         text-orientation: upright;
+        -webkit-text-orientation: upright;
         user-select: none;
         text-transform: uppercase;
       }
@@ -94,15 +105,14 @@ section#about {
   width: 2rem;
   position: absolute;
   left: -4.95rem;
-  border: 3px solid #fff; // DARK MODE
-  //border: 3px solid #052029;
+  border: 6px solid #000;
   border-radius: 50%;
-  background: #001f26;
+  background: #6f6f6f;
 }
 
 .resume-item.past:before {
-  background: #fff; // DARK MODE
+  background: #242931; // DARK MODE
   //background: #002c36;
-  border: 5px solid #000; // DARK MODE
+  border: 6px solid #000; // DARK MODE
   //border: 5px solid #001f26;
 }

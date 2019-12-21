@@ -13,7 +13,10 @@ export class WorkComponent implements OnInit {
   ngOnInit() {
   }
 
-  onProjectClicked(message: string): void {
-    console.log("I made it");
-  }
+  // onProjectClicked(message: string): void {
+  //   console.log("I made it");
+  // }
+  // onMockClicked(message: string): void {
+  //   console.log("I clicked it");
+  // }
 }

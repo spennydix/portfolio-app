@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { DataService } from '../data.service';
 import { Router } from "@angular/router";
 
@@ -16,7 +16,7 @@ export class MockComponent implements OnInit {
     this.data.getMocks()
     .subscribe((mockList => {
         this.mocks = mockList
-        console.log(mockList);
+        // console.log(mockList);
       })
     );
   }
