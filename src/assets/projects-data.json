@@ -12,6 +12,8 @@
       "preview": "assets/clients/expertvoice/ev-preview.jpg",
       "budget": "",
       "scope": "",
+      "problem": "The sales department of ExpertVoice had difficulty picking the most up-to-date or relevant content to show prospective brand partners.",
+      "plan": "Essentially, remove the communication barrier between Sales and Creative. Create a website that would act like a script for the content creation sales pitch, complete with links to the most up-to-date content. Updated by the creative team, quartly, used by the sales team daily.",
       "path": "EVstudios",
       "url": "https://www.expertvoice.com/studios/"
     },
@@ -25,16 +27,18 @@
       "buildtime": "20 hours",
       "writer": "Omar Muhyar",
       "brief": "xxx",
-      "description": "xxx",
+      "description": "Lenovo debuts their custom content on ExpertVoice showcasing its innovative computer lines. Dive into this custom lesson to learn about Lenovo's vision of 'Smarter technology for all'. ",
       "logo": "/assets/clients/lenovo/lenovo-logo.png",
       "header": "/assets/clients/lenovo/lenovo-tile.jpg",
       "preview": "/assets/clients/lenovo/lenovo-preview.jpg",
       "budget": "",
       "scope": "",
-      "quote": "",
+      "quote": "Your team was so wonderful, so professional, so organized, and so seamless during our content build. The level of professionalism was superb, we couldn’t ask for a better partnership than what we have with you and ExpertVoice.",
       "stakeholder": "",
       "path": "lenovo",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688"
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688",
+      "problem": "Lenovo wasn't getting as many sales as the AE thought they should be. He gave them a sweetheart deal on custom web content, yours truly fulfilled on that.",
+      "plan": "Really, just put something up to fill the space, and drive traffic. I'm passionate about computers and lenovo in particular though. So I went all out."
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "quote": "",
       "stakeholder": "",
       "path": "teva",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688"
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15351%26campaignId%3D5688",
+      "problem": "People often forget, or don't know to begin with – Teva was born in the canyon",
+      "plan": "Create a custom web experience celebrating Teva's canyon heritage and exploring the styles inspired by their unique roots."
     },
     {
       "id": 4,
@@ -74,7 +80,9 @@
       "quote": "Overall I really like the design of the site, it's really digestible and above all else, just sexy! Really well done.",
       "stakeholder": "Wayne Dayberry, Marketing Specialist",
       "path": "nightforce",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14844%26campaignId%3D5688"
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14844%26campaignId%3D5688",
+      "problem": "Honestly, I don't remember. These guys are in my portfolio to show that I can apply good design to brands and products whose industries I have a hard time endorsing.",
+      "plan": "Just look at the site and please don't judge me for having guns on my portfolio. #pewpew"
     },
     {
       "id": 5,
@@ -84,7 +92,7 @@
       "goal": "Brand awareness, product seeding",
       "length": "",
       "writer": "Seth Merrill",
-      "description": "",
+      "description": "Descente's been in the business of crafting premium ski apparel for 80 years, and it's reflected in the brand's thoughtful design process. ",
       "logo": "assets/clients/descente/descente-logo.png",
       "header": "assets/clients/descente/descente-tile.jpg",
       "preview": "assets/clients/descente/descente-preview.jpg",
@@ -92,7 +100,9 @@
       "scope": "",
       "stakeholder": "Patrick Purcell, Marketing Manager – USA",
       "path": "descente",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14540%26campaignId%3D5688"
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14540%26campaignId%3D5688",
+      "problem": "Descente is a frech brand, currently operated out of Japan, where it has a massive following. You probably haven't heard of them though.",
+      "plan": "Design a website that educates people on the over-the-top quality and thoughtful design elements that are found in Descente outerwear."
     },
     {
       "id": 6,
@@ -110,7 +120,9 @@
       "scope": "5 modules",
       "stakeholder": "Chad Lavachek, Retail Marketing Manage",
       "path": "toms",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13866%26campaignId%3D5688"
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13866%26campaignId%3D5688",
+      "problem": "Everyone knows TOMS for the 1 for 1 business model, but in 2017 that was like the smallest part of their giving program.",
+      "plan": "Create a web experience that educated people about the many other ways that TOMS gives back."
     },
     {
       "id": 7,
@@ -120,7 +132,6 @@
       "length": "20",
       "buildtime": "15 hours",
       "writer": "Tiffany Caldwell",
-      "brief": "Voke was having a hard time selling their energy product in naturals retailers like GNC and educating their affiliates on the benefits / use-cases of their product.",
       "description": "Voke makes an energy tablet with non-sugar ingredients. In my experience one tab gives you an almost immediate 3 hours of energy and focus. The content my team created for them helped improve retail sell-through and consumer product education.",
       "logo": "assets/clients/voke/voke-logo.png",
       "header": "assets/clients/voke/voke-header.jpg",
@@ -129,7 +140,9 @@
       "scope": "1 module",
       "stakeholder": "XXX",
       "path": "voke",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15536%26campaignId%3D5688"
+      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15536%26campaignId%3D5688",
+      "problem": "Voke was having a hard time selling their energy product in naturals retailers like GNC and educating their affiliates on the benefits / use-cases of their product.",
+      "plan": "Take a Voke tab, then code up a website that explains how beneficial these natural ingredients can be, when taken in concert with one another."
     },
     {
       "id": 8,
@@ -147,6 +160,8 @@
       "stakeholder": "Tabitha Luckett, Sales Director",
       "video": "assets/clients/greenPan/greenPan-recording.mp4",
       "path": "greenpan",
+      "problem": "Customers were ruining their shiny new GreenpPans by treating them like any other pan.",
+      "plan": "We made two engaging web experiences to help educate the sales staff in charge of educating consumers about the care and use of these unique pans.",
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
     },
     {
@@ -156,7 +171,7 @@
       "type": "Agency Work",
       "length": "65",
       "writer": "Alex Nygaard",
-      "description": "Hill's started as a three minute, one-product module and grew into one of ExpertVoice's most valued brand partnerships. They LOVE the content we created for them. We made standard content, micro content, video content, live video content, published surveys, and redesigned the E-Commerce experience for their unique content incentives.",
+      "description": "Hill's started as a three minute, one-product module and grew into one of ExpertVoice's most valued brand partnerships. They reportedly LOVE the content we created for them. We made standard content, micro content, video content, live video content, published surveys, and redesigned the E-Commerce experience for their unique content incentives.",
       "logo": "assets/clients/hills/hills-logo.png",
       "header": "assets/clients/hills/hills-header.jpg",
       "preview": "assets/clients/hills/hills-preview-image.jpg",
@@ -165,7 +180,9 @@
       "stakeholder": "Christina Savignano, Education Team Leader",
       "video": "assets/clients/hills/hills-recording.mp4",
       "path": "hills",
-      "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14333%26campaignId%3D5688"
+      "problem": "Every &rduo;pet parent&lduo; has a different food related, Hill's neeed to cut through the BS about trendy diets, certify and credential their retail sales staff, and educate them about a massive wave of new and re-designed products.",
+      "plan": "We created a long series of engaging web experiences. Intentionally designed to be difficult. It is a credentialling process, and it is in-depth.",
+      "url": "FPO"
     },
     {
       "id": 10,
@@ -180,7 +197,9 @@
       "budget": "700",
       "scope": "xxx",
       "path": "primeAV",
-      "url": "https://primeaudiovisuals.com"
+      "url": "https://primeaudiovisuals.com",
+      "problem": "A budding AV company based in Las Vegas wasn't getting enough shows to survive.",
+      "plan": "Create a simple website that lets individuals request quotes, and is easier on the eyes than the competition. We didn't plan to be paid in benihana, but we made it worth our time."
     },
     {
       "id": 11,
@@ -192,9 +211,13 @@
       "header": "assets/clients/campusmarket/campusmarket-header.png",
       "preview": "assets/clients/campusmarket/campusmarket-preview.jpg",
       "budget": "00",
+      "buildTime": "2",
       "scope": "Won first place in the Miller Competition Series @ Brigham Young University, Entrepreneurship & Technology mobile app compentition.",
       "path": "TCM",
-      "url": "https://thecampus.market"
+      "url": "https://thecampus.market",
+      "problem": "Have you been to Provo? BYU has a campus housing problem. Part of it stems from their required living conditions specified in their honor code, but the other part is that it's hard to know if the housing you are buying is compliant and its a dificult experience for users to look at 20 different housing markets. ",
+      "plan": "Design and build an app that lets you look at housing within the bounds of your university. Making a better experience for buyers and sellers. Less spam, more relevant search results, one easy place to check for new listings.",
+      "outcome":"We pulled the plug. We ran the app for about 4 months, at the peak we had about 300 users registered and 100 posts. We didn't realize how difficult it would be to scrape data from other sites and port them over to ours. Neither did we realize just how cycical our app would get use. People only look for housing at the beginning and end of their semesters."
     }
   ]
 }

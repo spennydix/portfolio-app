@@ -16,13 +16,17 @@ section#details {
       &.work-link {
         &:hover {
           opacity: 0.8;
-          cursor:pointer;
+          cursor: pointer;
         }
-        *:hover{cursor:pointer;}
+
+        *:hover {
+          cursor: pointer;
+        }
       }
-      *{
+
+      * {
         color: #eee !important;
-        text-decoration:none;
+        text-decoration: none;
       }
     }
   }
@@ -79,12 +83,17 @@ section#details {
   }
 }
 /* ACCORDIONS ___________________________________________________________________________ */
+.accordion:last-of-type {
+  margin-bottom: 2rem;
+}
+
 .accordion-label {
+  font-size: 1.2rem;
+
   .fa-bb {
     @include transition(transform 0.20s ease-in-out);
-    @include rotate(90deg);
+    @include rotate(225deg);
     font-size: 110%;
-    padding: 0.5rem;
   }
 }
 
@@ -118,28 +127,18 @@ section#details {
 .accordion-label {
   display: inline-flex;
   align-items: center;
-  color: #000;
   padding: 5px 10px;
   transition: all 0.65s ease 0s;
   -webkit-transition: all 1.0s ease 0s;
 }
 
 .accordion-label:hover {
-  color: #000;
+  color: darken(#999, 10%);
   cursor: pointer;
 }
 
 .closed .accordion-label {
   color: #999;
-}
-
-.accordion-text .accordion-text-inner p {
-  padding: 5px 15px 15px;
-  margin: 0;
-  font-size: 0.9em;
-  transition: all 0.65s ease 0s;
-  transition-delay: 0.4s;
-  opacity: 1;
 }
 
 .closed .accordion-text .accordion-text-inner p {
@@ -151,7 +150,7 @@ section#details {
 // Accordion
 
 .accordion-text .accordion-text-inner p {
-  padding: 5px 15px 15px;
+  padding: 7px 24px 10px;
   margin: 0;
   font-size: 0.9em;
   -webkit-transition: all 0.65s ease 0s;
@@ -162,7 +161,7 @@ section#details {
 }
 
 .accordion-text-inner p {
-  border-left: 1px solid #c6c6c6;
+  border-left: 2px solid #c6c6c6;
   margin-left: 14px !important;
 }
 
