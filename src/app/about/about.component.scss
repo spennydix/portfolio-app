@@ -28,6 +28,14 @@ section#about {
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 1em;
 
+    .job-title{
+      margin-bottom:0px;
+    }
+    .job-subTitle{
+      opacity:0.6;
+      margin-bottom:1rem;
+    }
+
     .tools {
       margin-top: 1rem;
 
@@ -44,7 +52,7 @@ section#about {
             &:before {
               content: "\f192";
               font-family: "Font Awesome 5 Free";
-              margin-right: 0.5rem;
+              margin-right: 0.3rem;
               color: #ffcc00;
             }
           }
@@ -52,7 +60,7 @@ section#about {
           &:before {
             content: "\f058";
             font-family: "Font Awesome 5 Free";
-            margin-right: 0.5rem;
+            margin-right: 0.3rem;
             color: #4ecca3;
           }
         }
