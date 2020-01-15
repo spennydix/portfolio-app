@@ -75,6 +75,16 @@ div#projectStream {
         }
       }
 
+      &.newProject{
+        background-color:rgba(0,0,0,0.2);
+        border:5px dotted rgba(255, 255, 255, 0.2);
+
+        &:hover{
+          background-color:rgba(0,0,0,0.4);
+          border:5px solid rgba(255, 255, 255, 0.2)
+        }
+      }
+
       * {
         color: #fff;
       }
