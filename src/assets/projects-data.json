@@ -199,7 +199,8 @@
       "path": "primeAV",
       "url": "https://primeaudiovisuals.com",
       "problem": "A budding AV company based in Las Vegas wasn't getting enough shows to survive.",
-      "plan": "Create a simple website that lets individuals request quotes, and is easier on the eyes than the competition. We didn't plan to be paid in benihana, but we made it worth our time."
+      "plan": "Create a simple website that lets individuals request quotes, and is easier on the eyes than the competition. We didn't plan to be paid in benihana, but we made it worth our time.",
+      "process": "This was a very straightforward project, I started by doing an informal competetive analysis and interviewing the client about his intended audience. I then developed some low fidelity wireframes, that were immediately approved. High fidelity mocks were about 80% baked before I got the approval to just build it. It all happened in 1 afternoon that I had off from work."
     },
     {
       "id": 11,
@@ -210,6 +211,7 @@
       "logo": "assets/clients/campusmarket/campusmarket-logo.png",
       "header": "assets/clients/campusmarket/campusmarket-header.png",
       "preview": "assets/clients/campusmarket/campusmarket-preview.jpg",
+      "process": "This was a very divergent process, at it's best it followed a familiar method, and I serviced the design portion. First, we identified a problem in an experience, or a new service that needed added, and I would immediately start researching how that problem had been solved before. Then I would create wireframes based on those examples and pitch them to my cofounders. After some back and forth and talking the design over with some users – in very informal sessions – we would add the design to a trello board and code it up the next day.",
       "budget": "00",
       "buildTime": "2",
       "scope": "Won first place in the Miller Competition Series @ Brigham Young University, Entrepreneurship & Technology mobile app compentition.",

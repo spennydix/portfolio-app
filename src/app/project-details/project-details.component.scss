@@ -46,6 +46,16 @@ section#details {
           min-height: 600px;
           min-width: 360px;
 
+          &.skewed {
+            transform: skew(0deg, 5deg) scale(0.3) translateX(100px);
+            min-height: 1080px;
+            min-width: 1920px;
+            position: absolute;
+            box-shadow: 20px -6px 20px 0 #1b2025;
+            border: 40px solid rgba(0, 0, 0, 0.4);
+            border-radius: 1.3rem;
+          }
+
           div#storyline-navigation-header {
             display: none !important;
           }
