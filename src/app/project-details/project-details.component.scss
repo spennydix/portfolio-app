@@ -4,6 +4,12 @@ div#storyline-navigation-header {
   display: none;
 }
 
+section#details{
+  background-image: url("../../assets/dot-light.png");
+  background-size: 15px;
+  min-height:100vh;
+}
+
 section#details {
   .breadcrumb {
     border-radius: 0;
@@ -45,6 +51,7 @@ section#details {
           border-radius: 1.2rem;
           min-height: 600px;
           min-width: 360px;
+          background-color: rgba(0,0,0,0.5);
 
           &.skewed {
             transform: skew(0deg, 5deg) scale(0.3) translateX(200px);
@@ -67,14 +74,15 @@ section#details {
   .process {
     position: relative;
 
-    .bg-grid {
-      background-image: url("../../assets/dot.png");
-      background-size: 15px;
-      filter: opacity(0.2);
-      position: absolute;
-      width: 100%;
-      height: 100%;
-    }
+    // .bg-grid {
+    //   background-image: url("../../assets/dot.png");
+    //   filter:invert(1) !important;
+    //   opacity:0.1;
+    //   background-size: 15px;
+    //   position: absolute;
+    //   width: 100%;
+    //   height: 100%;
+    // }
   }
 
   .stats.dark-mode {
