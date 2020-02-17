@@ -1,5 +1,26 @@
 {
   "data": [{
+
+    {
+      "id": 10,
+      "name": "Prime AV",
+      "type": "Marketing Site",
+      "length": "xxx",
+      "buildtime": "3 hours",
+      "description": "A mid-scale Audio Visuals company needed to create a website to legitimze their new sibling company. I spun this site up in under 6 hours of legitimate work, it's a pretty basic informational site + contact widget, and that is all they really paid for.",
+      "logo": "assets/clients/primeAV/primeAV-logo.png",
+      "header": "assets/clients/primeAV/primeAV-header.jpg",
+      "preview": "assets/clients/primeAV/primeAV-preview.jpg",
+      "budget": "700",
+      "scope": "xxx",
+      "path": "primeAV",
+      "url": "https://primeaudiovisuals.com",
+      "problem": "A budding AV company based in Las Vegas wasn't getting enough shows to survive.",
+      "plan": "Create a simple website that lets individuals request quotes, and is easier on the eyes than the competition. We didn't plan to be paid in benihana, but we made it worth our time.",
+      "process": "This was a very straightforward project, I started by doing an informal competetive analysis and interviewing the client about his intended audience. I then developed some low fidelity wireframes, that were immediately approved. High fidelity mocks were about 80% baked before I got the approval to just build it. It all happened in 1 afternoon that I had off from work."
+    },
+
+
     {
       "id": 8,
       "name": "Sawyer",

@@ -1,35 +1,54 @@
 {
-  "data": [
+  "data": [{
+      "id": 0,
+      "name": "Portfolio",
+      "type": "Behind the scenes",
+      "description": "So you like the site, eh?",
+      "logo": "assets/logo-white.svg",
+      "header": "assets/portfolio-tile.jpg",
+      "path": "portfolio",
+      "url": "#"
+    },
     {
-    "id": 1,
-    "name": "Backslash",
-    "type": "Brand Design",
-    "description": "I play soccer every week on a team of my friends coworkers – they are software engineers and they needed jerseys designed for their team. Their team name is &lduo;backslash&rduo; (a commonly used computer key in engineering)",
-    "logo": "assets/clients/backslash/backslash-logo.png",
-    "header": "assets/clients/backslash/backslash-tile.png",
-    "path": "backslash",
-    "url": ""
-  },
+      "id": 1,
+      "name": "Artemis Health",
+      "type": "UX Contracting",
+      "description": "",
+      "logo": "assets/clients/artemis/artemis-logo.png",
+      "header": "assets/clients/artemis/artemis-tile.png",
+      "path": "artemis",
+      "url": "assets/clients/artemis/artemis-process.pdf"
+    },
     {
-    "id": 2,
-    "name": "Project Targa",
-    "type": "Spec work",
-    "description": "Sawyer’s new Select Filters and Purifiers use a proprietary foam adsorption technology that is changing the game in water filtration.We created a new piece of micro-content showcasing their newest product line.",
-    "logo": "assets/clients/targa/targa-logo.png",
-    "header": "assets/clients/targa/targa-tile.png",
-    "path": "targa",
-    "url": ""
-  },
-  {
-    "id": 3,
-    "name": "Top Hat",
-    "type": "For funsies",
+      "id": 2,
+      "name": "Backslash",
+      "type": "Brand Design",
+      "description": "I play soccer every week on a team of my friends coworkers – they are software engineers and they needed jerseys designed for their team. Their team name is &lduo;backslash&rduo; (a commonly used computer key in engineering)",
+      "logo": "assets/clients/backslash/backslash-logo.png",
+      "header": "assets/clients/backslash/backslash-tile.png",
+      "path": "backslash",
+      "url": "assets/clients/backslash/backslash-process.pdf"
+    },
 
-    "description": "XXX",
-    "logo": "assets/clients/tophat/tophat-logo.png",
-    "header": "assets/clients/tophat/tophat-tile.png",
-    "path": "tophat",
-    "url": ""
-  }
+    {
+      "id": 3,
+      "name": "Project Targa",
+      "type": "Spec work",
+      "description": "Sawyer’s new Select Filters and Purifiers use a proprietary foam adsorption technology that is changing the game in water filtration.We created a new piece of micro-content showcasing their newest product line.",
+      "logo": "assets/clients/targa/targa-logo.png",
+      "header": "assets/clients/targa/targa-tile.png",
+      "path": "targa",
+      "url": "assets/clients/targa/targa-process.pdf"
+    },
+    {
+      "id": 4,
+      "name": "Top Hat",
+      "type": "Friendship 2020",
+      "description": "XXX",
+      "logo": "assets/clients/tophat/tophat-logo.png",
+      "header": "assets/clients/tophat/tophat-tile.png",
+      "path": "tophat",
+      "url": "assets/clients/tophat/tophat-process.pdf"
+    }
   ]
 }

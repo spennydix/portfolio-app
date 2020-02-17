@@ -18,6 +18,22 @@
       "url": "https://www.expertvoice.com/studios/",
       "process" : "We started by surveying the sales department, asking questions about how we could better support them in selling more custom web content. We found that they had been showing some very out of date work from our in-house-agency and immediately started work on a site to pitch custom content, and house all our best work. The design process was iterative, more so than I would have liked, we had a lot of stakeholders for something that was just supposed to be an internal tool, but after 3 rounds of feedback working from a medium-fidelity adobe XD mockup, I started building the site. After it was all built, we threw it over to them and watched as they navigated... we simplified things, and pressed the publish button. It's one of the most used sites on the whole signed-out side of the business, now!"
     },
+
+    {
+      "id": 10,
+      "name": "ExpertVoice",
+      "type": "UI development",
+      "description": "The signed-out home page of ExpertVoice.com. This project was passed from marketer to contractor to ux researcher back to the marketer who finally asked me for help. What they had was a bunch of copy that had been tested for comprehension and a half-baked design that wasnt all that compelling. ",
+      "logo": "assets/clients/expertvoice/ev-logo.png",
+      "header": "assets/clients/expertvoice/ev-tile2.jpg",
+      "preview": "assets/clients/expertvoice/ev-preview.jpg",
+      "path": "expertvoice",
+      "url": "http://www.expertvoice.com/experts",
+      "problem": "A visually uninspiring front door to a very exciting education and recommendation company, geared towards an elite group of top-recommenders.",
+      "plan": "Iterate on their idea, making it easier to parse through, and less bland, while still operating within the brand's color scheme and design language/library.",
+      "process": "This project came across my desk already having gone through extensive internal review and the content (copy) had been thouroughly user tested for comprehension and usability. So by the thime I got my hands on it, there was less freedom than ever. But I feel like I was still able to vastly improve the final product by tweaking the layout and adding some polish to the visuals.  Not to mention increasing the font size. Everyone always sleeps on font-size. It's important."
+    },
+
     {
       "id": 2,
       "name": "Lenovo",
@@ -185,24 +201,7 @@
       "plan": "We created a long series of engaging web experiences. Intentionally designed to be difficult. It is a credentialling process, and it is in-depth.",
       "url": "FPO"
     },
-    {
-      "id": 10,
-      "name": "Prime AV",
-      "type": "Marketing Site",
-      "length": "xxx",
-      "buildtime": "3 hours",
-      "description": "A mid-scale Audio Visuals company needed to create a website to legitimze their new sibling company. I spun this site up in under 6 hours of legitimate work, it's a pretty basic informational site + contact widget, and that is all they really paid for.",
-      "logo": "assets/clients/primeAV/primeAV-logo.png",
-      "header": "assets/clients/primeAV/primeAV-header.jpg",
-      "preview": "assets/clients/primeAV/primeAV-preview.jpg",
-      "budget": "700",
-      "scope": "xxx",
-      "path": "primeAV",
-      "url": "https://primeaudiovisuals.com",
-      "problem": "A budding AV company based in Las Vegas wasn't getting enough shows to survive.",
-      "plan": "Create a simple website that lets individuals request quotes, and is easier on the eyes than the competition. We didn't plan to be paid in benihana, but we made it worth our time.",
-      "process": "This was a very straightforward project, I started by doing an informal competetive analysis and interviewing the client about his intended audience. I then developed some low fidelity wireframes, that were immediately approved. High fidelity mocks were about 80% baked before I got the approval to just build it. It all happened in 1 afternoon that I had off from work."
-    },
+
     {
       "id": 11,
       "name": "Campus Market",
