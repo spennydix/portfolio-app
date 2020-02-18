@@ -13,15 +13,15 @@
         <div class="copy col-10 col-md-6">
           <h1>{{project.name}}</h1>
           <!-- <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p> -->
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p> -->
           <p>
             {{project.description}}
           </p>
           <div class="accordion-wrapper">
 
             <!-- ACCORDION SECTION -->
-            <div class="accordion" (click)="status=!status" [ngClass]="status ? 'opened' : 'closed'">
+            <div class="accordion" (click)="status=!status" [ngClass]="status ? 'closed' : 'opened'">
               <div class="accordion-label">
                 <i class="fa-bb fas fa-plus fa-fw"></i>
                 Problem
@@ -36,6 +36,37 @@
 
             <!-- ACCORDION SECTION -->
             <div class="accordion" (click)="status2=!status2" [ngClass]="status2 ? 'opened' : 'closed'">
+              <div class="accordion-label">
+                <i class="fa-bb fas fa-plus fa-fw"></i>
+                Process
+              </div>
+              <div class="accordion-text">
+                <div class="accordion-text-inner boilerplate" *ngIf="project.type === 'Agency Work'; else elseBlock">
+                  <p>
+                    We start by talking with the stakeholder either at the brand or internally, then we do research on how their problem is being solved by others brands / companies.
+                  </p>
+                  <p>
+                    From there we brainstorm and create low-fidelity mocks, and high level content concepts.
+                  </p>
+                  <p>
+                    We pitch it to the brand and then we start building.
+                  </p>
+
+                </div>
+
+                <ng-template #elseBlock>
+                  <div class="accordion-text-inner">
+                    <p>
+                      {{project.process}}
+                    </p>
+                  </div>
+                </ng-template>
+              </div>
+            </div>
+            <!-- x: ACCORDION SECTION -->
+
+            <!-- ACCORDION SECTION -->
+            <div class="accordion" (click)="status3=!status3" [ngClass]="status3 ? 'opened' : 'closed'">
               <div class="accordion-label">
                 <i class="fa-bb fas fa-plus fa-fw"></i>
                 Plan
@@ -56,30 +87,22 @@
         </div>
       </div>
     </div>
-    <div class="process">
+    <div class="process d-none">
       <div class="bg-grid"></div>
-      <div class="process-intro container mt-5 mb-5">
+      <div class="process-intro container mt-5 mb-5 d-none">
         <div class="col-12 col-md-6 boilerplate" *ngIf="project.type === 'Agency Work'; else elseBlock">
-          <h2>The Process</h2>
+
           <p>
-            I want to say that I always start by talking to people with the problem we are trying to solve… but that just isn’t the case. Most of the time, a company is coming to us because we offer tools to solve common problems they are having.
+            We start by talking with the stakeholder either at the brand or internally, then we do research on how their problem is being solved by others brands / companies.
           </p>
           <p>
-            We typically start by talking to a brand, about their customers, about their products.
+            From there we brainstorm and create low-fidelity mocks, and high level content concepts.
           </p>
           <p>
-            Then I talk to users, experts, and haters.
+            We pitch it to the brand and then we start building.
           </p>
         </div>
 
-        <ng-template #elseBlock>
-          <div class="col-12 col-md-6">
-            <h2>The Process</h2>
-            <p>
-              {{project.process}}
-            </p>
-          </div>
-        </ng-template>
 
       </div>
       <div class="brainstorm container mt-5 mb-5 d-none">

@@ -7,7 +7,7 @@ div#storyline-navigation-header {
 section#details{
   background-image: url("../../assets/dot-light.png");
   background-size: 15px;
-  min-height:100vh;
+  min-height: calc(100vh - 58px);
 }
 
 section#details {
@@ -54,12 +54,12 @@ section#details {
           background-color: rgba(0,0,0,0.5);
 
           &.skewed {
-            transform: skew(0deg, 5deg) scale(0.3) translateX(200px);
+            transform: skew(0deg, 0deg) scale(0.35) translateX(20vw);
             min-height: 1080px;
             min-width: 1920px;
             position: absolute;
             box-shadow: 20px -6px 20px 0 #1b2025;
-            border: 40px solid rgba(0, 0, 0, 0.4);
+            border: 20px solid rgba(0, 0, 0, 0.4);
             border-radius: 1.3rem;
           }
 
