@@ -16,27 +16,39 @@
       "process": "This project came across my desk already having gone through extensive internal review and the content (copy) had been thouroughly user tested for comprehension and usability. So by the thime I got my hands on it, there was less freedom than ever. But I feel like I was still able to vastly improve the final product by tweaking the layout and adding some polish to the visuals.  Not to mention increasing the font size. Everyone always sleeps on font-size. It's important."
     },
     {
-        "id": 2,
-        "name": "ExpertVoice Studios",
-        "type": "Marketing Site",
-        "length": "",
-        "buildtime": "6 hours",
-        "description": "This is a site I put together, meant to house all the great work that our agency created. I faught a terribly annoying wordpress plugin, and accomplished like 80% of my goal for usability and interface design.",
-        "responsibilities": "xx",
-        "logo": "assets/clients/expertvoice/ev-logo.png",
-        "header": "assets/clients/expertvoice/ev-tile.jpg",
-        "preview": "assets/clients/expertvoice/ev-preview.jpg",
-        "budget": "",
-        "scope": "",
-        "problem": "The sales department of ExpertVoice had difficulty picking the most up-to-date or relevant content to show prospective brand partners.",
-        "plan": "Essentially, remove the communication barrier between Sales and Creative. Create a website that would act like a script for the content creation sales pitch, complete with links to the most up-to-date content. Updated by the creative team, quartly, used by the sales team daily.",
-        "path": "EVstudios",
-        "url": "https://www.expertvoice.com/studios/",
-        "process" : "We started by surveying the sales department, asking questions about how we could better support them in selling more custom web content. We found that they had been showing some very out of date work from our in-house-agency and immediately started work on a site to pitch custom content, and house all our best work. The design process was iterative, more so than I would have liked, we had a lot of stakeholders for something that was just supposed to be an internal tool, but after 3 rounds of feedback working from a medium-fidelity adobe XD mockup, I started building the site. After it was all built, we threw it over to them and watched as they navigated... we simplified things, and pressed the publish button. It's one of the most used sites on the whole signed-out side of the business, now!"
-      },
-
+      "id": 2,
+      "name": "ExpertVoice Studios",
+      "type": "Marketing Site",
+      "length": "",
+      "buildtime": "6 hours",
+      "description": "This is a site I put together, meant to house all the great work that our agency created. I faught a terribly annoying wordpress plugin, and accomplished like 80% of my goal for usability and interface design.",
+      "responsibilities": "xx",
+      "logo": "assets/clients/expertvoice/ev-logo.png",
+      "header": "assets/clients/expertvoice/ev-tile.jpg",
+      "preview": "assets/clients/expertvoice/ev-preview.jpg",
+      "budget": "",
+      "scope": "",
+      "problem": "The sales department of ExpertVoice had difficulty picking the most up-to-date or relevant content to show prospective brand partners.",
+      "plan": "Essentially, remove the communication barrier between Sales and Creative. Create a website that would act like a script for the content creation sales pitch, complete with links to the most up-to-date content. Updated by the creative team, quartly, used by the sales team daily.",
+      "path": "EVstudios",
+      "url": "https://www.expertvoice.com/studios/",
+      "process": "We started by surveying the sales department, asking questions about how we could better support them in selling more custom web content. We found that they had been showing some very out of date work from our in-house-agency and immediately started work on a site to pitch custom content, and house all our best work. The design process was iterative, more so than I would have liked, we had a lot of stakeholders for something that was just supposed to be an internal tool, but after 3 rounds of feedback working from a medium-fidelity adobe XD mockup, I started building the site. After it was all built, we threw it over to them and watched as they navigated... we simplified things, and pressed the publish button. It's one of the most used sites on the whole signed-out side of the business, now!"
+    },
     {
       "id": 3,
+      "name": "Building Blocks",
+      "type": "Component Library",
+      "description": "Fractal is an open source component library tool, that give organizations the freedom to template in whatever language they want. This allowed us to create a library that had custom varaibles for our proprietary LMS and it gave us a good structure to build our library around. ",
+      "logo": "assets/clients/expertvoice/ev-logo.png",
+      "header": "assets/clients/expertvoice/ev-tile3.jpg",
+      "preview": "assets/clients/expertvoice/ev-preview3.jpg",
+      "problem": "With every new project a designer would have to start building a web experience from scratch. It quickly became a mess of everyone copying the last build they did, then modifying code to acommodate whatever content came in. ",
+      "plan": "Build a tool that helps our staff designers create new experiences quickly.",
+      "path": "buildingblocks",
+      "url": "https://cdn.expertvoice.com/client/mfg/buildingblocks/1.x.x/components/detail/typographic-elements.html"
+    },
+    {
+      "id": 4,
       "name": "Lenovo",
       "audience": "~1.5 million",
       "goal": "Product education",
@@ -59,7 +71,7 @@
       "plan": "Really, just put something up to fill the space, and drive traffic. I'm passionate about computers and lenovo in particular though. So I went all out."
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Descente",
       "type": "Agency Work",
       "buildtime": "36 hours",
@@ -79,7 +91,7 @@
       "plan": "Design a website that educates people on the over-the-top quality and thoughtful design elements that are found in Descente outerwear."
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Teva",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
@@ -100,7 +112,7 @@
       "plan": "Create a custom web experience celebrating Teva's canyon heritage and exploring the styles inspired by their unique roots."
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Voke",
       "goal": "Brand awareness, product seeding",
       "type": "Agency Work",
@@ -120,7 +132,7 @@
       "plan": "Take a Voke tab, then code up a website that explains how beneficial these natural ingredients can be, when taken in concert with one another."
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Nightforce",
       "audience": "xxx",
       "type": "Agency Work",
@@ -143,7 +155,7 @@
       "plan": "Just look at the site and please don't judge me for having guns on my portfolio. #pewpew"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "TOMS",
       "goal": "Brand awareness, product seeding",
       "buildtime": "36 hours",
@@ -163,7 +175,7 @@
       "plan": "Create a web experience that educated people about the many other ways that TOMS gives back."
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Green Pan",
       "type": "Agency Work",
       "length": "6",
@@ -183,7 +195,7 @@
       "url": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "Hill's Pet Nutrition",
       "goal": "Category education",
       "type": "Product Education",
@@ -195,7 +207,7 @@
       "preview": "assets/clients/hills/hills-preview-image.jpg",
       "budget": "609,148",
       "scope": "35 modules",
-      "process" : "Hill's approached our agency wanting to improve their retail rep training program. They had worked with us before, but were never fully engaged. They asked us to present our plan for engaging, training, and credentialing these reps working inside pet specialty stores, and we said: HMB. Alex Nygaard and I worked to craft a series of scaffolded content experiences that would educate these people in an engaging way, and at the end of what was to be multiple hours of training, they would get a certificate, and some gift cards. Fast forward 2 years – thousands of people have taken these courses, and have waded through what legal turned in to a slightly less engaging somewhat repetitive content experience.",
+      "process": "Hill's approached our agency wanting to improve their retail rep training program. They had worked with us before, but were never fully engaged. They asked us to present our plan for engaging, training, and credentialing these reps working inside pet specialty stores, and we said: HMB. Alex Nygaard and I worked to craft a series of scaffolded content experiences that would educate these people in an engaging way, and at the end of what was to be multiple hours of training, they would get a certificate, and some gift cards. Fast forward 2 years – thousands of people have taken these courses, and have waded through what legal turned in to a slightly less engaging somewhat repetitive content experience.",
       "stakeholder": "Christina Savignano, Education Team Leader",
       "video": "assets/clients/hills/hills-recording.mp4",
       "path": "hills",
@@ -205,7 +217,7 @@
     },
 
     {
-      "id": 11,
+      "id": 12,
       "name": "Campus Market",
       "type": "Product Design",
       "description": "This is a joint venture between a few friends and I. It is basically a replacement for craigslist geared specifically towards university students. Users of our site avoid the spam and the privacy concerns, not to mention the archaic UX, that Craigslist is widely known for.",
@@ -221,7 +233,7 @@
       "url": "https://thecampus.market",
       "problem": "Have you been to Provo? BYU has a campus housing problem. Part of it stems from their required living conditions specified in their honor code, but the other part is that it's hard to know if the housing you are buying is compliant and its a dificult experience for users to look at 20 different housing markets. ",
       "plan": "Design and build an app that lets you look at housing within the bounds of your university. Making a better experience for buyers and sellers. Less spam, more relevant search results, one easy place to check for new listings.",
-      "outcome":"We pulled the plug. We ran the app for about 4 months, at the peak we had about 300 users registered and 100 posts. We didn't realize how difficult it would be to scrape data from other sites and port them over to ours. Neither did we realize just how cycical our app would get use. People only look for housing at the beginning and end of their semesters."
+      "outcome": "We pulled the plug. We ran the app for about 4 months, at the peak we had about 300 users registered and 100 posts. We didn't realize how difficult it would be to scrape data from other sites and port them over to ours. Neither did we realize just how cycical our app would get use. People only look for housing at the beginning and end of their semesters."
     }
   ]
 }
