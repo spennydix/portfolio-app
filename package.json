@@ -23,7 +23,7 @@
     "bootstrap": "^4.3.1",
     "core-js": "^2.6.10",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-scrollreveal": "^3.0.0",
     "node-sass": "^4.13.0",
     "rxjs": "~6.3.3",
