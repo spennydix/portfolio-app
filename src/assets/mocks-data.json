@@ -10,7 +10,17 @@
       "url": "assets/clients/portfolio/portfolio-process.pdf"
     },
     {
-      "id": 1,
+      "id": 2,
+      "name": "Weave",
+      "type": "Design Challenge",
+      "description": "",
+      "logo": "assets/clients/weave/weave-logo.png",
+      "header": "assets/clients/weave/weave-tile.jpg",
+      "path": "weave",
+      "url": "assets/clients/weave/weave-process.pdf"
+    },
+    {
+      "id": 3,
       "name": "Artemis Health",
       "type": "UX Contracting",
       "description": "",
@@ -20,7 +30,7 @@
       "url": "assets/clients/artemis/artemis-process.pdf"
     },
     {
-      "id": 2,
+      "id": 4,
       "name": "Backslash",
       "type": "Brand Design",
       "description": "I play soccer every week on a team of my friends coworkers – they are software engineers and they needed jerseys designed for their team. Their team name is &lduo;backslash&rduo; (a commonly used computer key in engineering)",
@@ -29,9 +39,8 @@
       "path": "backslash",
       "url": "assets/clients/backslash/backslash-process.pdf"
     },
-
     {
-      "id": 3,
+      "id": 5,
       "name": "Project Targa",
       "type": "Spec work",
       "description": "Sawyer’s new Select Filters and Purifiers use a proprietary foam adsorption technology that is changing the game in water filtration.We created a new piece of micro-content showcasing their newest product line.",
@@ -41,8 +50,8 @@
       "url": "assets/clients/targa/targa-process.pdf"
     },
     {
-      "id": 4,
-      "name": "Top Hat",
+      "id": 6,
+      "name": "RentSoft",
       "type": "Friendship 2020",
       "description": "XXX",
       "logo": "assets/clients/tophat/tophat-logo.png",
