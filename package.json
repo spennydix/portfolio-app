@@ -25,7 +25,7 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "ngx-scrollreveal": "^3.0.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "rxjs": "~6.3.3",
     "safe-pipe": "^0.3.0",
     "scrollreveal": "^4.0.5",
