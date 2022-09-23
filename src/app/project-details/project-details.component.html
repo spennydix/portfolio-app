@@ -4,60 +4,71 @@
       <ol class="breadcrumb">
         <li class="breadcrumb-item work-link"><a href="#">Work</a></li>
         <!-- <li class="breadcrumb-item active" aria-current="page">{{this.activeProject}}</li> -->
-        <li class="breadcrumb-item active" aria-current="page">{{project.name}}</li>
+        <li class="breadcrumb-item active" aria-current="page">
+          {{ project.name }}
+        </li>
       </ol>
     </nav>
     <div class="intro container">
       <div class="row flex mt-5 mb-5">
-
         <div class="copy col-10 col-md-6">
-          <h1>{{project.name}}</h1>
+          <h1>{{ project.name }}</h1>
           <!-- <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p> -->
           <p>
-            {{project.description}}
+            {{ project.description }}
           </p>
           <div class="accordion-wrapper">
-
             <!-- ACCORDION SECTION -->
-            <div class="accordion" (click)="status=!status" [ngClass]="status ? 'closed' : 'opened'">
+            <div
+              class="accordion"
+              (click)="status = !status"
+              [ngClass]="status ? 'closed' : 'opened'"
+            >
               <div class="accordion-label">
                 <i class="fa-bb fas fa-plus fa-fw"></i>
                 Problem
               </div>
               <div class="accordion-text">
                 <div class="accordion-text-inner">
-                  <p>{{project.problem}}</p>
+                  <p>{{ project.problem }}</p>
                 </div>
               </div>
             </div>
             <!-- x: ACCORDION SECTION -->
 
             <!-- ACCORDION SECTION -->
-            <div class="accordion" (click)="status2=!status2" [ngClass]="status2 ? 'opened' : 'closed'">
+            <div
+              class="accordion"
+              (click)="status2 = !status2"
+              [ngClass]="status2 ? 'opened' : 'closed'"
+            >
               <div class="accordion-label">
                 <i class="fa-bb fas fa-plus fa-fw"></i>
                 Process
               </div>
               <div class="accordion-text">
-                <div class="accordion-text-inner boilerplate" *ngIf="project.type === 'Agency Work'; else elseBlock">
+                <div
+                  class="accordion-text-inner boilerplate"
+                  *ngIf="project.type === 'Agency Work'; else elseBlock"
+                >
                   <p>
-                    We start by talking with the stakeholder either at the brand or internally, then we do research on how their problem is being solved by others brands / companies.
+                    We start by talking with the stakeholder either at the brand
+                    or internally, then we do research on how their problem is
+                    being solved by others brands / companies.
                   </p>
                   <p>
-                    From there we brainstorm and create low-fidelity mocks, and high level content concepts.
+                    From there we brainstorm and create low-fidelity mocks, and
+                    high level content concepts.
                   </p>
-                  <p>
-                    We pitch it to the brand and then we start building.
-                  </p>
-
+                  <p>We pitch it to the brand and then we start building.</p>
                 </div>
 
                 <ng-template #elseBlock>
                   <div class="accordion-text-inner">
                     <p>
-                      {{project.process}}
+                      {{ project.process }}
                     </p>
                   </div>
                 </ng-template>
@@ -66,52 +77,71 @@
             <!-- x: ACCORDION SECTION -->
 
             <!-- ACCORDION SECTION -->
-            <div class="accordion" (click)="status3=!status3" [ngClass]="status3 ? 'opened' : 'closed'">
+            <div
+              class="accordion"
+              (click)="status3 = !status3"
+              [ngClass]="status3 ? 'opened' : 'closed'"
+            >
               <div class="accordion-label">
                 <i class="fa-bb fas fa-plus fa-fw"></i>
                 Plan
               </div>
               <div class="accordion-text">
                 <div class="accordion-text-inner">
-                  <p>{{project.plan}}</p>
+                  <p>{{ project.plan }}</p>
                 </div>
               </div>
             </div>
             <!-- x: ACCORDION SECTION -->
-
           </div>
-          <a href="{{project.url}}" target="_blank" class="btn btn-primary">Check it out&nbsp;<i class="fas fa-arrow-right"></i></a>
+          <a href="{{ project.url }}" target="_blank" class="btn btn-primary"
+            >Check it out&nbsp;<i class="fas fa-arrow-right"></i
+          ></a>
         </div>
         <div class="col-0 col-md-6 d-md-flex d-none preview-holder">
-          <iframe id="iframePreview" class="skewed" [src]="project.url | safe:'resourceUrl' "></iframe>
+          <iframe
+            id="iframePreview"
+            class="skewed"
+            [src]="project.url | safe: 'resourceUrl'"
+          ></iframe>
         </div>
       </div>
     </div>
-    <div class="process d-none">
+    <div class="process">
       <div class="bg-grid"></div>
       <div class="process-intro container mt-5 mb-5 d-none">
-        <div class="col-12 col-md-6 boilerplate" *ngIf="project.type === 'Agency Work'; else elseBlock">
-
+        <div
+          class="col-12 col-md-6 boilerplate"
+          *ngIf="project.type === 'Agency Work'; else elseBlock"
+        >
           <p>
-            We start by talking with the stakeholder either at the brand or internally, then we do research on how their problem is being solved by others brands / companies.
+            We start by talking with the stakeholder either at the brand or
+            internally, then we do research on how their problem is being solved
+            by others brands / companies.
           </p>
           <p>
-            From there we brainstorm and create low-fidelity mocks, and high level content concepts.
+            From there we brainstorm and create low-fidelity mocks, and high
+            level content concepts.
           </p>
-          <p>
-            We pitch it to the brand and then we start building.
-          </p>
+          <p>We pitch it to the brand and then we start building.</p>
         </div>
-
-
       </div>
       <div class="brainstorm container mt-5 mb-5 d-none">
         <div class="col-12 col-md-6">
           <h2>Collaboration</h2>
-          <p>After talking to people, the brand and internal stakeholders, I meet with a small project team, in a brainstorm meeting, where we wireframe, storyboard, and get a loose script for the story we are going to tell, the interactions we are
-            going to build and the information we are going to try to get people to digest and remember. </p>
+          <p>
+            After talking to people, the brand and internal stakeholders, I meet
+            with a small project team, in a brainstorm meeting, where we
+            wireframe, storyboard, and get a loose script for the story we are
+            going to tell, the interactions we are going to build and the
+            information we are going to try to get people to digest and
+            remember.
+          </p>
 
-          <p>Deliverables from this meeting are disparate, but as long as we leave with a plan, we have succeeded.</p>
+          <p>
+            Deliverables from this meeting are disparate, but as long as we
+            leave with a plan, we have succeeded.
+          </p>
         </div>
       </div>
       <div class="other-projects"></div>
@@ -121,19 +151,18 @@
         <h5 class="p-3">Stats, for nerds</h5>
         <div class="col-12">
           <ul class="stats-list">
-            <li>Audience: {{project.audience}}</li>
+            <li>Audience: {{ project.audience }}</li>
             <li>Build Time:</li>
             <li>Engagement:</li>
             <li>Success:</li>
             <li>User Tested:</li>
             <li>New Layout:</li>
             <li>Cient Satisfaction:</li>
-            <li>Writer: {{project.writer}}</li>
-            <li>Client name: {{project.stakeholder}}</li>
+            <li>Writer: {{ project.writer }}</li>
+            <li>Client name: {{ project.stakeholder }}</li>
           </ul>
         </div>
       </div>
     </div>
-
   </section>
 </span>
